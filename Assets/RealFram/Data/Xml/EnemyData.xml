@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EnemyData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AllEnemyList Id="2001" Name="绿蜘蛛" Hp="25" AttackDis="1.8" EffectId="3001" PrefabPath="Assets/枪火之地/Prefabs/spider.prefab" Size="1" />
+  <AllEnemyList Id="2002" Name="无人机" Hp="25" AttackDis="2" EffectId="3002" PrefabPath="Assets/枪火之地/Prefabs/drone.prefab" Size="1" />
+  <AllEnemyList Id="2003" Name="白蜘蛛" Hp="25" AttackDis="1.8" EffectId="3003" PrefabPath="Assets/枪火之地/Prefabs/spider3.prefab" Size="1" />
+  <AllEnemyList Id="2004" Name="红蜘蛛" Hp="100" AttackDis="2.4" EffectId="3001" PrefabPath="Assets/枪火之地/Prefabs/spider2.prefab" Size="1" />
+  <AllEnemyList Id="2005" Name="白炮台" Hp="100" AttackDis="30" EffectId="3001" PrefabPath="Assets/枪火之地/Prefabs/turret.prefab" Size="1" />
+</EnemyData>

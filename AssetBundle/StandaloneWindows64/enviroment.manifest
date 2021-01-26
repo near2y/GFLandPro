@@ -1,0 +1,122 @@
+ManifestFileVersion: 0
+CRC: 96028757
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f46d336b80f722fb1bcc11a802190388
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 27490867e8449dc86fd9ffca3f290005
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 76b5ec6153a1d55438228df10fe66844, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dd6d4281e5d7cd44d8c6e38bc2c1b8d8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1fd999d1b2cf94a45a5b0a47ce074bef, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 02536f33053638549ab5c50ff3ecc0de, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 75febd242c999f04d9654522a10c006b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3309686a9fbbe6e42a182d5e0257704c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9191284b058eef549b7108b5f04e1117, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 730475ee64f9a894bbac0d9e6f22e813, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 69fbd00be8d904b3da640e502905c345, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/stageSelectRing02glow.jpg"
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/w4_grid.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/pr_effect_vine.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/ceshi_05.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/ground_09.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/4_0_AlbedoTransparency.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/ceshi_13.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/w1_generic - \u526F\u672C.png"
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/4_0_Normal.png"
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/5_1_AlbedoTransparency.jpg"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/all.FBX"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/ceshi_10.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/123_DefaultMaterial_AlbedoTransparency.jpg"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/123_DefaultMaterial_Normal.tga"
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png
+- "Assets/\u67AA\u706B\u4E4B\u5730/Shader/PolyboxStandard.shader"
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/biaoshi.FBX"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/ceshi_04.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/w2_decal_big.png"
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/w1_decal_a.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/w1_decal_end_l.png"
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/ground_08.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/ceshi_11.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/prefabs/Enviroment.prefab"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/3_8_AlbedoTransparency.tga"
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/w1_panelglow.jpg"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/ground_04.mat"
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/w0_under_glow.png"
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/ceshi_01.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/fanwei_01.FBX"
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/3_8_Normal.tga"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/stageSelectRing02.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/ceshi_12.mat"
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/6_15 - Default_MetallicSmoothness.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/ceshi_06.mat"
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/w1_decal_end_r.png"
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/6_15 - Default_Normal.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/w1_decal_big.png"
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/ceshi_09.mat"
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/5_1_glow.jpg"
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/123_DefaultMaterial_AlbedoTransparency_02.tga"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/6_15 - Default_AlbedoTransparency.png"
+- Assets/Plugins/Z ! Voxel BlocksAssets/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/w0_floor.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/ceshi_03.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/New Folder/ceshi_02.mat"
+Dependencies: []

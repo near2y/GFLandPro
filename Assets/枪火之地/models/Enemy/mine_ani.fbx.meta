@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: c035c2d2f491bbd43ab67b3aa03e8751
+timeCreated: 1610676622
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: mine_chushou01
+    100004: mine_chushou02
+    100006: mine_chushou03
+    100008: mine_chushou04
+    100010: mine_chushou05
+    100012: mine_chushou06
+    100014: mine_chushou07
+    100016: mine_chushou08
+    100018: mine_chushou09
+    100020: mine_chushou10
+    100022: mine_chushou11
+    100024: mine_chushou12
+    400000: //RootNode
+    400002: mine_chushou01
+    400004: mine_chushou02
+    400006: mine_chushou03
+    400008: mine_chushou04
+    400010: mine_chushou05
+    400012: mine_chushou06
+    400014: mine_chushou07
+    400016: mine_chushou08
+    400018: mine_chushou09
+    400020: mine_chushou10
+    400022: mine_chushou11
+    400024: mine_chushou12
+    2300000: //RootNode
+    2300002: mine_chushou01
+    2300004: mine_chushou02
+    2300006: mine_chushou03
+    2300008: mine_chushou04
+    2300010: mine_chushou05
+    2300012: mine_chushou06
+    2300014: mine_chushou07
+    2300016: mine_chushou08
+    2300018: mine_chushou09
+    2300020: mine_chushou10
+    2300022: mine_chushou11
+    2300024: mine_chushou12
+    3300000: //RootNode
+    3300002: mine_chushou01
+    3300004: mine_chushou02
+    3300006: mine_chushou03
+    3300008: mine_chushou04
+    3300010: mine_chushou05
+    3300012: mine_chushou06
+    3300014: mine_chushou07
+    3300016: mine_chushou08
+    3300018: mine_chushou09
+    3300020: mine_chushou10
+    3300022: mine_chushou11
+    3300024: mine_chushou12
+    4300000: mine_out_0
+    4300002: mine_chushou06
+    4300004: mine_chushou10
+    4300006: mine_chushou12
+    4300008: mine_chushou09
+    4300010: mine_chushou11
+    4300012: mine_chushou01
+    4300014: mine_chushou07
+    4300016: mine_chushou03
+    4300018: mine_chushou05
+    4300020: mine_chushou04
+    4300022: mine_chushou08
+    4300024: mine_chushou02
+    7400000: open
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: open
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: mine_chushou01
+        weight: 1
+      - path: mine_chushou02
+        weight: 1
+      - path: mine_chushou03
+        weight: 1
+      - path: mine_chushou04
+        weight: 1
+      - path: mine_chushou05
+        weight: 1
+      - path: mine_chushou06
+        weight: 1
+      - path: mine_chushou07
+        weight: 1
+      - path: mine_chushou08
+        weight: 1
+      - path: mine_chushou09
+        weight: 1
+      - path: mine_chushou10
+        weight: 1
+      - path: mine_chushou11
+        weight: 1
+      - path: mine_chushou12
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

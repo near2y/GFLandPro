@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data name ="EffectData" from="EffectData.xlsx" to = "EffectData.xml">
+	<variable  name="AllEffectList" type="list">
+		<list name = "EffectBase" sheetname="特效数据表" mainKey = "Id">
+			<variable  name="Id" col = "Id" type="int"/>
+			<variable  name="Name" col = "特效名字" type="string"/>
+			<variable  name="PrefabPath" col = "预制体完整路径" type="string"/>
+		</list>
+	</variable>
+</data>

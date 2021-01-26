@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 3151543001
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1de9a39ff0e897e808afabc9bcfb78ef
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8e7a9a5bc260fb3cb7f278e39396d550
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Prefabs/testBullet.prefab"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/particle_orange_bullet_07.mat"
+Dependencies:
+- F:/Near2y/GFland/Assets/../AssetBundle/Android/ef_bl_gun01

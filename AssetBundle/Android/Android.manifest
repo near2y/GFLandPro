@@ -1,0 +1,61 @@
+ManifestFileVersion: 0
+CRC: 3564228999
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: data
+      Dependencies: {}
+    Info_1:
+      Name: drone
+      Dependencies: {}
+    Info_2:
+      Name: player
+      Dependencies: {}
+    Info_3:
+      Name: spider
+      Dependencies:
+        Dependency_0: drone
+    Info_4:
+      Name: spider2
+      Dependencies:
+        Dependency_0: drone
+        Dependency_1: spider
+    Info_5:
+      Name: spider3
+      Dependencies:
+        Dependency_0: drone
+        Dependency_1: spider
+    Info_6:
+      Name: turret
+      Dependencies:
+        Dependency_0: drone
+    Info_7:
+      Name: joystick
+      Dependencies: {}
+    Info_8:
+      Name: gamepanel
+      Dependencies:
+        Dependency_0: joystick
+    Info_9:
+      Name: loadpanel
+      Dependencies: {}
+    Info_10:
+      Name: menupanel
+      Dependencies: {}
+    Info_11:
+      Name: ef_behit_02
+      Dependencies: {}
+    Info_12:
+      Name: ef_bl_gun01
+      Dependencies: {}
+    Info_13:
+      Name: enemybullet
+      Dependencies:
+        Dependency_0: ef_bl_gun01
+    Info_14:
+      Name: testbullet
+      Dependencies:
+        Dependency_0: ef_bl_gun01
+    Info_15:
+      Name: assetbundleconfig
+      Dependencies: {}

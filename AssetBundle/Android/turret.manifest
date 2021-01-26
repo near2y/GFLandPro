@@ -1,0 +1,60 @@
+ManifestFileVersion: 0
+CRC: 2258697241
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f30057f2c380cd9dbb52d828bdf18f7a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9691e3acbb5e46a898405b1b70d57ec0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8f9ab6b2af418274596c01d30a9fe696, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 749d13942c52b2043bfc55cfefef2270, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 974043386b0ee854e9e22c301c78c1e1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c54799b9a16d0f846a78caf944d58885, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 93edd37c35bc41c4f872dc83b137ae41, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 195
+  Script: {instanceID: 0}
+Assets:
+- "Assets/\u67AA\u706B\u4E4B\u5730/Models/Enemy/turret_ani.fbx"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Materials/Enemy/turret.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Models/Enemy/turret_Death.anim"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Animation/Enemy/TurretAC.controller"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Prefabs/turret.prefab"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/ms_turret_white_04.jpg"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/ms_turret_white_01.jpg"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Models/Enemy/Materials/turret.mat"
+Dependencies:
+- F:/Near2y/GFland/Assets/../AssetBundle/Android/drone

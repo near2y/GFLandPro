@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 679303868
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f06805ce74bb3547931499763242364b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 86907183b656d5981dfd94c3e8469878
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Prefabs/ef_behit_02.prefab"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/mat_tx_baodian_an.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Textures/tex_tx_baodian.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/OriginRes/Effect/eff_03/fbx/fbx_fang.FBX"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/Effect_Wave08.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/mat_tx_baodian.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Textures/tex_tx_lizi_fen.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Textures/Effect_Wave08.tga"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/mat_tx_lizi_fen_add_an.mat"
+Dependencies: []

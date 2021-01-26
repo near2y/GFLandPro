@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data name ="BulletData" from="BulletData.xlsx" to = "BulletData.xml">
+	<variable  name="AllBulletList" type="list">
+		<list name = "BulletBase" sheetname="子弹数据表" mainKey = "Id">
+			<variable  name="Id" col = "Id" type="int"/>
+			<variable  name="EffectId" col = "特效ID" type="int"/>
+			<variable  name="BulletDamage" col = "单个子弹伤害" type="float"/>
+			<variable  name="ShootCound" col = "单次射击数" type="int"/>
+			<variable  name="ShootSpeed" col = "射击速度" type="float"/>
+			<variable  name="ShootInterval" col = "射击间隔" type="float"/>
+			<variable  name="BulletSpeed" col = "子弹速度" type="float"/>
+			<variable  name="PenetrateCount" col = "穿透数量" type="int"/>
+		
+		</list>
+	</variable>
+</data>

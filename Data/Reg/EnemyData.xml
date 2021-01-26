@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data name ="EnemyData" from="Enemy.xlsx" to = "EnemyData.xml">
+	<variable  name="AllEnemyList" type="list">
+		<list name = "EnemyBase" sheetname="所有怪物参数" mainKey = "Id">
+			<variable  name="Id" col = "ID" type="int"/>
+			<variable  name="Name" col = "名字" type="string"/>
+			<variable  name="Hp" col = "基础血量" type="float"/>
+			<variable  name="AttackDis" col = "攻击距离" type="float"/>
+			<variable  name="EffectId" col = "攻击特效ID" type="int"/>
+			<variable  name="PrefabPath" col = "预制体完整路径" type="string"/>
+			<variable  name="Size" col = "怪物大小" type="float"/>
+		</list>
+	</variable>
+</data>

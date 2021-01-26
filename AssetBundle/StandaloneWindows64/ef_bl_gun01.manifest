@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 1481986133
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 25866d6bb03b91f47ad29ff16dc5844b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8e7a9a5bc260fb3cb7f278e39396d550
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/particle_orange_bullet_06.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Prefabs/ef_bl_gun01.prefab"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Textures/particle_orange_bullet_06.png"
+Dependencies: []

@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<data name = "SceneData" from = "SceneData.xlsx" to = "SceneData.xml">
+	<variable name = "AllSceneList" type = "list">
+		<list name = "SceneBase" sheetname = "场景参数" mainKey = "Id">
+			<variable name = "Id" col = "ID" type = "int"/>
+			<variable name = "SceneName" col = "场景名称" type = "string"/>
+			<variable name = "WaveId" col = "波次ID" type = "int"/>
+		</list>
+	</variable>
+</data>

@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 426967894
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4a30b87534128dccf5293dd4abdb8969
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9c8e254ec5b728b1bce77caf8745e40e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 00aa7bc605e82fe48926df11db6e4c94, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 066b4fdf2c430cf47b5cab25f17b77ab, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 195
+  Script: {instanceID: 0}
+Assets:
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/spider/ms_spider_green_01.tga"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Animate/spider_ani.controller"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/ms_spider_green_01.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/models/spider_ani.fbx"
+- "Assets/\u67AA\u706B\u4E4B\u5730/prefabs/spider_ani.prefab"
+Dependencies: []

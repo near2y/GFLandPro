@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 1795976930
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: data
+      Dependencies: {}
+    Info_1:
+      Name: enviroment
+      Dependencies: {}
+    Info_2:
+      Name: player
+      Dependencies: {}
+    Info_3:
+      Name: spider_ani
+      Dependencies: {}
+    Info_4:
+      Name: joystick
+      Dependencies: {}
+    Info_5:
+      Name: gamepanel
+      Dependencies:
+        Dependency_0: joystick
+    Info_6:
+      Name: loadpanel
+      Dependencies: {}
+    Info_7:
+      Name: menupanel
+      Dependencies: {}
+    Info_8:
+      Name: ef_bl_gun01
+      Dependencies: {}
+    Info_9:
+      Name: assetbundleconfig
+      Dependencies: {}

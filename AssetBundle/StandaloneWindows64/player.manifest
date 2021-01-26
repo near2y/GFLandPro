@@ -1,0 +1,64 @@
+ManifestFileVersion: 0
+CRC: 4242321764
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0da436e9449366a8138dc3c61090743c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b13a2c2913c399760f11cd43efdb8e03
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: f9fd19f12f057b04c86cb1332dff94cd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 143
+  Script: {instanceID: 0}
+Assets:
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/player/bl_gun02.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/bl_gun05.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/player/bl_gun00.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/player/hm_lemon_01.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/bl_gun03.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/bl_gun00.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/bl_gun02.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/player/bl_gun01.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/bl_gun04.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Animate/PlayerAC.controller"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/player/bl_gun05.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/prefabs/player.prefab"
+- "Assets/\u67AA\u706B\u4E4B\u5730/models/player/lemon_skin.fbx"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Animate/hm_lemon_ani.fbx"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/hm_lemon_glass_01.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/bl_gun01.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/hm_lemon_01.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/player/bl_gun03.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/player/bl_gun04.png"
+Dependencies: []

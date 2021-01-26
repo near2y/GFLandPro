@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data name ="WaveData" from="Wave.xlsx" to = "WaveData.xml">
+	<variable  name="AllWaveList" type="list">
+		<list name = "WaveBase" sheetname="波次参数" mainKey = "ID">
+			<variable  name="ID" col = "ID" type="int"/>
+			<variable  name="WaveID" col = "波次的ID" type="int"/>
+			<variable  name="SceneName" col = "场景名称" type="string"/>
+			<variable  name="DelayTime" col = "延迟激活时间" type="float"/>
+			<variable  name="PointID" col = "落地点ID" type="int"/>
+			<variable  name="EnemyID" col = "生成怪物ID" type="int"/>
+			<variable  name="EnemyName" col = "生成怪物名字" type="string"/>
+			<variable  name="SpwanCount" col = "当前点生成怪物的总量" type="int"/>
+			<variable  name="SpwanInterval" col = "当前点生成怪物的间隔" type="float"/>
+			<variable  name="NextWaveActiveNum" col = "下个波次激活条件-剩余数量" type="int"/>
+			<variable  name="MaxTime" col = "下个波次激活条件-最长时间" type="float"/>
+		</list>
+	</variable>
+</data>

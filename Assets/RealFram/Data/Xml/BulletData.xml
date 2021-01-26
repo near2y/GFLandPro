@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BulletData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AllBulletList Id="0" EffectId="1" BulletDamage="5" ShootCound="3" ShootSpeed="3" ShootInterval="5" BulletSpeed="10" PenetrateCount="1" />
+</BulletData>

@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 422729110
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7ea9b5a9561158b00c351dcf850f0861
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 394c42d0042b1a35e0afad87f7deb22e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 79b57452437b44147aaec4eeea727eda, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5e78f2e2fe0b5f247bffacae36e5f467, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f57b28759484e4e4e8c3deb4f5c31f8d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 33d6864bf086fab4ab7dd21b9ff5a0d6, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/UGUI/Home.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/UGUI/Clear.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Prefabs/UGUI/Panel/GamePanel.prefab"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/UGUI/Add.png"
+Dependencies:
+- F:/Near2y/GFland/Assets/../AssetBundle/Android/joystick

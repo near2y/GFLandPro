@@ -1,0 +1,59 @@
+ManifestFileVersion: 0
+CRC: 3947361693
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 084a4e6ee8d9a47aa2f997ca78f0b06c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2fea627fe3ff492f3b2828f9e9489f99
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8f9ab6b2af418274596c01d30a9fe696, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d9d48af3a36036449b6a1c6c127d695e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 749d13942c52b2043bfc55cfefef2270, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 974043386b0ee854e9e22c301c78c1e1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8f7a2aaab6b88ba44a6b242f3818f956, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 195
+  Script: {instanceID: 0}
+Assets:
+- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/spider/ms_spider_green_01.tga"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/ms_spider_green_01.jpg"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Materials/Enemy/ms_spider_green_04.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Prefabs/spider.prefab"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Models/Enemy/ms_spider_green.FBX"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/ms_spider_green_02.jpg"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Animation/Enemy/SpiderAC.controller"
+Dependencies:
+- F:/Near2y/GFland/Assets/../AssetBundle/Android/drone
