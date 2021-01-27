@@ -23,7 +23,6 @@ public class Turret : Enemy
         shootTimer += Time.deltaTime * 1000;
         if (completeInStage && shootTimer >= emitter.shootFrequency)
         {
-            Debug.Log("near2y");
             shootTimer = 0;
             emitter.SingleShot(emitter.bulletPos.position, emitter.bulletPos.position + emitter.bulletPos.forward);
         }

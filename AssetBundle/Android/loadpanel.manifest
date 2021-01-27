@@ -3,7 +3,7 @@ CRC: 1536790055
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8aebc493721e866d69a0e5a51a688ade
+    Hash: b04499dbf06652cf449ebc36d7a89c46
   TypeTreeHash:
     serializedVersion: 2
     Hash: 3b96582a9421ec70a90adbff00057d96
@@ -38,5 +38,5 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 Assets:
-- "Assets/\u67AA\u706B\u4E4B\u5730/Prefabs/UGUI/Panel/LoadPanel.prefab"
+- "Assets/\u67AA\u706B\u4E4B\u5730/prefabs/UGUI/Panel/LoadPanel.prefab"
 Dependencies: []

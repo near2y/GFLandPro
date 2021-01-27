@@ -16,7 +16,7 @@ public class SceneManager : MonoSingleton<SceneManager>
     public GameCamera gameCamera;
     public EnemyPoints enemyPoints;
 
-    string playerPrePath = "Assets/枪火之地/Prefabs/player.prefab";
+    string playerPrePath = "Assets/枪火之地/prefabs/player.prefab";
 
 
     private void Start()

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2016065972
+CRC: 2007820948
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2f07abbc8d122cb4d5e5b2044f178baf
+    Hash: df3471a473fd3d7a24737a0fcf3e950c
   TypeTreeHash:
     serializedVersion: 2
     Hash: 453ba75113cb939134a6ef69264fd824
@@ -26,6 +26,6 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 Assets:
-- "Assets/\u67AA\u706B\u4E4B\u5730/Prefabs/UGUI/JoyStick.prefab"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/UGUI/circle.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/prefabs/UGUI/JoyStick.prefab"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/UGUI/circle.png"
 Dependencies: []

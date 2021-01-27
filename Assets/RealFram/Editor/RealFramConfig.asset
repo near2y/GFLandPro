@@ -15,4 +15,4 @@ MonoBehaviour:
   m_ABBytePath: Assets/RealFram/Data/ABData/AssetBundleConfig.bytes
   m_XmlPath: Assets/RealFram/Data/Xml/
   m_BinaryPath: Assets/RealFram/Data/Binary/
-  m_UIPanelPath: "Assets/\u67AA\u706B\u4E4B\u5730/Prefabs/UGUI/Panel"
+  m_UIPanelPath: "Assets/\u67AA\u706B\u4E4B\u5730/prefabs/UGUI/Panel"

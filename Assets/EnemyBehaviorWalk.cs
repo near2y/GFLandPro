@@ -16,6 +16,7 @@ public class EnemyBehaviorWalk : EnemyBehaviorBase
 
         startAniSpeed = enemy.anim.speed;
         enemy.anim.speed = startAniSpeed * enemy.walkSpeedRatio;
+        enemy.bodyCollider.enabled = true;
 
         if (hadAgent)
         {
@@ -35,7 +36,6 @@ public class EnemyBehaviorWalk : EnemyBehaviorBase
         enemy.attackTimer += Time.deltaTime * 1000;
         if(enemy.attackTimer >= enemy.attackInterval)
         {
-            enemy.targetSqrDis = Vector3.SqrMagnitude(enemy.transform.position - enemy.agentTarget.position);
             if(enemy.targetSqrDis <= enemy.attackRange * enemy.attackRange)
             {
                 enemy.anim.SetBool(enemy.id_Attack, true);

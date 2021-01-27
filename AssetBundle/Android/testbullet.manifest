@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3151543001
+CRC: 2662031631
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1de9a39ff0e897e808afabc9bcfb78ef
+    Hash: b21fd638bc7171e6f4b3ddf09e0c6435
   TypeTreeHash:
     serializedVersion: 2
     Hash: 8e7a9a5bc260fb3cb7f278e39396d550
@@ -27,4 +27,4 @@ Assets:
 - "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Prefabs/testBullet.prefab"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/particle_orange_bullet_07.mat"
 Dependencies:
-- F:/Near2y/GFland/Assets/../AssetBundle/Android/ef_bl_gun01
+- "F:/Near2y/SVN/shejiAPP/\u7A0B\u5E8F\u5DE5\u7A0B/Assets/../AssetBundle/Android/ef_bl_gun01"

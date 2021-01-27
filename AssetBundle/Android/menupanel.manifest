@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2466307899
+CRC: 136452100
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 22504eeef5c44494b2192df7f9f12423
+    Hash: 0a480083857fd6459b352ea9214662c4
   TypeTreeHash:
     serializedVersion: 2
     Hash: a9aa422d002449b14f3da4e12ed4b355
@@ -38,7 +38,7 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 Assets:
-- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/UGUI/soundBtn.png"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/UGUI/circle 1.png"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Prefabs/UGUI/Panel/MenuPanel.prefab"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/UGUI/soundBtn.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/UGUI/circle 1.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/prefabs/UGUI/Panel/MenuPanel.prefab"
 Dependencies: []

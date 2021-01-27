@@ -13,7 +13,6 @@ public class EnemyManager :  MonoBehaviour
     /// </summary>
     public List<Enemy> enemyList;
 
-    public float sqrTargetDis;
 
     void Start()
     {
@@ -50,22 +49,19 @@ public class EnemyManager :  MonoBehaviour
     public Enemy FindCloseEnemy(float attackDis)
     {
         Enemy enemy = null;
-        float sqrDis = 0;
-        if (enemyList.Count > 0)
+        float standard = attackDis * attackDis;
+        for (int i = 0; i < enemyList.Count; i++)
         {
-            enemy = enemyList[0];
-            sqrDis = enemy.targetSqrDis;
-            for(int i = 1; i < enemyList.Count; i++)
+            if (enemyList[i].died || enemyList[i].targetSqrDis>standard) continue;
+            if(enemy == null)
             {
-                if(sqrDis > enemyList[i].targetSqrDis)
-                {
-                    sqrDis = enemyList[i].targetSqrDis;
-                    enemy = enemyList[i];
-                }
+                enemy = enemyList[i];
+            }
+            if (enemy.targetSqrDis > enemyList[i].targetSqrDis)
+            {
+                enemy = enemyList[i];
             }
         }
-        sqrTargetDis = sqrDis;
-        if (sqrDis > attackDis*attackDis) enemy = null; 
         return enemy;
     }
 
@@ -73,6 +69,7 @@ public class EnemyManager :  MonoBehaviour
     {
         if (enemy != null)
         {
+            enemy.Release();
             enemyList.Remove(enemy);
             SceneManager.Instance.waveManager.CurrentWave.aliveEnemyNum--;
         }
@@ -82,4 +79,5 @@ public class EnemyManager :  MonoBehaviour
     {
         enemyList.Add(enemy);
     }
+
 }

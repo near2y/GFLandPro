@@ -43,8 +43,8 @@ public abstract class  Enemy : MonoBehaviour
     [HideInInspector]
     public int id_Attack = Animator.StringToHash("Attack");
 
-
-    protected bool died = false;
+    [HideInInspector]
+    public bool died = false;
     protected float startColorRange = 1;
 
 
@@ -82,17 +82,15 @@ public abstract class  Enemy : MonoBehaviour
         agentTarget = target;
         //不再处于死亡状态
         died = false;
-        //玩家与敌人的距离平方
-        targetSqrDis = Vector3.SqrMagnitude(transform.position - agentTarget.position);
         //恢复render
         if (meshRenderer != null)
         {
             meshRenderer.material.SetFloat("_DissvoleRange", 0);
             meshRenderer.material.SetFloat("_colorrange", startColorRange);
         }
-
-
     }
+
+
 
     public void Release()
     {
@@ -103,7 +101,6 @@ public abstract class  Enemy : MonoBehaviour
     {
         died = true;
         anim.Play(EnemyState.Dying);
-        SceneManager.Instance.enemyManager.ClearEnemy(this);
         if (meshRenderer != null)
         {
             meshRenderer.material.SetFloat("_colorrange", 0.3f);
@@ -112,15 +109,19 @@ public abstract class  Enemy : MonoBehaviour
 
     protected void Update()
     {
-        if (hitting && !died)
+        if (!died)
         {
-            float res = Mathf.Lerp(meshRenderer.material.GetFloat("_colorrange"), startColorRange, 50 * Time.deltaTime);
-            if (res - startColorRange < 0.3f)
+            targetSqrDis = Vector3.SqrMagnitude(transform.position - agentTarget.position);
+            if (hitting)
             {
-                hitting = false;
-                res = startColorRange;
+                float res = Mathf.Lerp(meshRenderer.material.GetFloat("_colorrange"), startColorRange, 50 * Time.deltaTime);
+                if (res - startColorRange < 0.3f)
+                {
+                    hitting = false;
+                    res = startColorRange;
+                }
+                meshRenderer.material.SetFloat("_colorrange", res);
             }
-            meshRenderer.material.SetFloat("_colorrange", res);
         }
     }
 

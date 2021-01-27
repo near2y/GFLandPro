@@ -25,7 +25,6 @@ public class EnemyBehaviorInStage : EnemyBehaviorBase
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         enemy.anim.speed = enemy.anim.speed / enemy.inStageSpeedRatio;
-        enemy.bodyCollider.enabled = true;
         if(SceneManager.Instance != null)
         {
             SceneManager.Instance.enemyManager.AddEnemy(enemy);

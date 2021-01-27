@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3902317457
+CRC: 61970477
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5dab8b6b7a87ef66ea781b1b1fd0029b
+    Hash: c2863590090bc1de14fe39c67f1b94b0
   TypeTreeHash:
     serializedVersion: 2
     Hash: 205d09b970665240c9063818eb5b7343
@@ -40,9 +40,9 @@ ClassTypes:
 - Class: 195
   Script: {instanceID: 0}
 Assets:
-- "Assets/\u67AA\u706B\u4E4B\u5730/Prefabs/spider3.prefab"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Materials/Enemy/ms_spider_green_03.mat"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/ms_spider_green_04.jpg"
+- "Assets/\u67AA\u706B\u4E4B\u5730/prefabs/spider3.prefab"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/Enemy/ms_spider_green_03.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/ms_spider_green_04.jpg"
 Dependencies:
-- F:/Near2y/GFland/Assets/../AssetBundle/Android/drone
-- F:/Near2y/GFland/Assets/../AssetBundle/Android/spider
+- "F:/Near2y/SVN/shejiAPP/\u7A0B\u5E8F\u5DE5\u7A0B/Assets/../AssetBundle/Android/drone"
+- "F:/Near2y/SVN/shejiAPP/\u7A0B\u5E8F\u5DE5\u7A0B/Assets/../AssetBundle/Android/spider"

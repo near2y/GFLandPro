@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 388734790
+CRC: 2757215264
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: eb331624f55561263078a394a46d9940
+    Hash: b2153bb22599c704960ce564eb3d9e33
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4b5541b58c20e91146a6859945f7dc93
@@ -44,27 +44,27 @@ ClassTypes:
 - Class: 143
   Script: {instanceID: 0}
 Assets:
-- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/player/bl_gun02.png"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Materials/player/bl_gun05.mat"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/player/bl_gun00.png"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/player/hm_lemon_01.png"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Materials/player/bl_gun03.mat"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Materials/player/bl_gun00.mat"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Materials/player/bl_gun02.mat"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/player/bl_gun01.png"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Materials/player/bl_gun04.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/player/bl_gun02.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/bl_gun05.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/player/bl_gun00.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/player/hm_lemon_01.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/bl_gun03.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/bl_gun00.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/bl_gun02.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/player/bl_gun01.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/bl_gun04.mat"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Animation/PlayerAC.controller"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/player/bl_gun05.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/player/bl_gun05.png"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Animation/Player/run_left.anim"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Animation/Player/run_front.anim"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Animation/Player/run_back.anim"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Prefabs/player.prefab"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Models/player/lemon_skin.fbx"
+- "Assets/\u67AA\u706B\u4E4B\u5730/prefabs/player.prefab"
+- "Assets/\u67AA\u706B\u4E4B\u5730/models/player/lemon_skin.fbx"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Animation/Player/hm_lemon_ani.fbx"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Materials/player/hm_lemon_glass_01.mat"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Materials/player/bl_gun01.mat"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Materials/player/hm_lemon_01.mat"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/player/bl_gun03.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/hm_lemon_glass_01.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/bl_gun01.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/hm_lemon_01.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/player/bl_gun03.png"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Animation/Player/run_right.anim"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/player/bl_gun04.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/player/bl_gun04.png"
 Dependencies: []

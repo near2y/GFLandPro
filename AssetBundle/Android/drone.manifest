@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 950432431
+CRC: 3866992987
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 04b2999abb76277a5f6c6b0089d7a946
+    Hash: d25805db336c453b6c73e260b78754fc
   TypeTreeHash:
     serializedVersion: 2
     Hash: 40cffb49e48f47d8afeb0125e9d4ba16
@@ -50,17 +50,17 @@ ClassTypes:
 - Class: 195
   Script: {instanceID: 0}
 Assets:
-- "Assets/\u67AA\u706B\u4E4B\u5730/Models/Enemy/Materials/drone.mat"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Models/Enemy/drone_ani.fbx"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Prefabs/drone.prefab"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Models/Enemy/drone_ani/birth1.anim"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Models/Enemy/drone_ani/die.anim"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/ms_drone_white_02.jpg"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Materials/Enemy/Enemy.shader"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Models/Enemy/drone_ani/birth2.anim"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/ms_drone_white_01.jpg"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Models/Enemy/drone_ani/idle.anim"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Textures/Shader/monsterDyingNoise.png"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Materials/Enemy/drone.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/models/Enemy/Materials/drone.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/models/Enemy/drone_ani.fbx"
+- "Assets/\u67AA\u706B\u4E4B\u5730/prefabs/drone.prefab"
+- "Assets/\u67AA\u706B\u4E4B\u5730/models/Enemy/drone_ani/birth1.anim"
+- "Assets/\u67AA\u706B\u4E4B\u5730/models/Enemy/drone_ani/die.anim"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/ms_drone_white_02.jpg"
+- "Assets/\u67AA\u706B\u4E4B\u5730/models/Enemy/drone_ani/birth2.anim"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Shader/MonsterTest.shader"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/ms_drone_white_01.jpg"
+- "Assets/\u67AA\u706B\u4E4B\u5730/models/Enemy/drone_ani/idle.anim"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/Shader/monsterDyingNoise.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/Enemy/drone.mat"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Animation/Enemy/DroneAC.controller"
 Dependencies: []

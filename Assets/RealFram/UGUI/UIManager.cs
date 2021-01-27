@@ -11,7 +11,7 @@ public enum UIMsgID
 
 public class UIManager : Singleton<UIManager>
 {
-    private const string UIPREFABPATH = "Assets/枪火之地/Prefabs/UGUI/Panel/";
+    private const string UIPREFABPATH = "Assets/枪火之地/prefabs/UGUI/Panel/";
     /// <summary>
     /// UI节点
     /// </summary>

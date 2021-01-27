@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ABConfig
   m_EditorClassIdentifier: 
   m_AllPrefabPath:
-  - "Assets/\u67AA\u706B\u4E4B\u5730/Prefabs"
+  - "Assets/\u67AA\u706B\u4E4B\u5730/prefabs"
   - "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Prefabs"
   m_AllFileDirAB:
   - ABName: data

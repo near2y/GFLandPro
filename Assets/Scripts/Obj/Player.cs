@@ -48,10 +48,6 @@ public class Player : MonoBehaviour
         cCtrl = GetComponent<CharacterController>();
         movement = new Vector3();
 
-        //attackEffect = GameManager.Instance.effectManager.GetEffect(4001);
-        //attackParticle = attackEffect.GetComponent<ParticleSystem>();
-        //attackParticle.Stop();
-        //emitter.AddDiffractionAbility();
     }
 
 
@@ -133,7 +129,6 @@ public class Player : MonoBehaviour
                 inAttack = true;
                 //shootParticle.gameObject.SetActive(true);
                 emitter.Attack(true);
-
             }
         }
         anim.SetBool(aniID_Attack, inAttack);
@@ -154,7 +149,7 @@ public class Player : MonoBehaviour
             playerToMouse.y = 0f;
             //lerp
             Quaternion newRotation = Quaternion.LookRotation(playerToMouse);
-            if (Mathf.Abs(transform.rotation.eulerAngles.y - newRotation.eulerAngles.y) > 5)
+            if (Mathf.Abs(transform.rotation.eulerAngles.y - newRotation.eulerAngles.y) > 10)
             {
                 transform.rotation = Quaternion.Lerp(transform.rotation, newRotation, 5 * Time.deltaTime);
                 ratio = 1;
@@ -165,7 +160,7 @@ public class Player : MonoBehaviour
                 emitter.bulletPos.LookAt(enemy.transform);
                 //transform.LookAt(enemy.transform.position);
                 transform.rotation = newRotation;
-                ratio *= 0.9f;
+                ratio *= 0.5f;
                 if (ratio < 0.1) ratio = 0;
                 anim.SetFloat(aniID_Turning, 0);
             }
