@@ -101,6 +101,10 @@ public abstract class  Enemy : MonoBehaviour
     {
         died = true;
         anim.Play(EnemyState.Dying);
+        //手机震动
+        //Handheld.Vibrate();
+        //相机震动
+        //SceneManager.Instance.gameCamera.ShakeCamera(3, 0.05f);
         if (meshRenderer != null)
         {
             meshRenderer.material.SetFloat("_colorrange", 0.3f);

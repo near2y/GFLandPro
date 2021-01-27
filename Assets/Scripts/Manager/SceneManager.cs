@@ -31,6 +31,7 @@ public class SceneManager : MonoSingleton<SceneManager>
         waveManager = new WaveManager(GameManager.Instance.waveData, this);
         //points
         enemyPoints = new EnemyPoints(pointsTrans);
+        //player
         player = ObjectManager.Instance.InstantiateObject(playerPrePath).GetComponent<Player>();
         player.transform.SetParent(transform);
         gameCamera.SetTarget(player.transform);

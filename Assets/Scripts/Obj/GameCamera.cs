@@ -1,16 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
+
 
 public class GameCamera : MonoBehaviour
 {
     public float smoothing = 5;
+    public CinemachineVirtualCamera followCamera;
 
 
     Transform followTarget = null;
-    Vector3 offSet;
-    bool couldFollow = false;
+    float shakeTimer = 0;
+    CinemachineBasicMultiChannelPerlin shakePerlin;
+    float startIntensity = 0;
+    float shakeTimerTotal;
 
+    private void Start()
+    {
+        shakePerlin = followCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+    }
 
     public void SetTarget(Transform target)
     {
@@ -19,20 +28,27 @@ public class GameCamera : MonoBehaviour
             Debug.LogError("设置摄像机跟随对象为空，请检查！");
             return;
         }
-        couldFollow = true;
         followTarget = target;
-        offSet = followTarget.position - transform.position;
+        followCamera.Follow = followTarget;
     }
 
-
-
-    private void FixedUpdate()
+    private void Update()
     {
-        if (couldFollow)
+        if (shakeTimer > 0)
         {
-            Vector3 targetPos = followTarget.position - offSet;
-            transform.position = Vector3.Lerp(transform.position, targetPos, smoothing * Time.deltaTime);
+            shakeTimer -= Time.deltaTime;
+            float res = Mathf.Lerp(0f,startIntensity, shakeTimer / shakeTimerTotal);
+            shakePerlin.m_AmplitudeGain = res;
         }
+
+    }
+
+    public void ShakeCamera(float intensity,float time)
+    {
+        shakePerlin.m_AmplitudeGain = intensity;
+        startIntensity = intensity;
+        shakeTimer = time;
+        shakeTimerTotal = time;
     }
 
 }

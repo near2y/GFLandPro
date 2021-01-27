@@ -39,6 +39,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 6b8dab3fb9a2d964db23a1fad5dec7a9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DissolveTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DissvoleMap:
         m_Texture: {fileID: 2800000, guid: 5887abcdca1fee24fa74250f185a9517, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -77,6 +81,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
+    - _ColorGrass: 2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DissvoleRange: 0
