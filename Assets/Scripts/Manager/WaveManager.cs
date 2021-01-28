@@ -36,6 +36,10 @@ public class WaveManager
         inited = true;
 
         waveIndex = 0;
+        while (!waveBaseListDic.ContainsKey(waveIndex))
+        {
+            waveIndex++;
+        }
         waveBehaviorDic[waveIndex].Active();
     }
 

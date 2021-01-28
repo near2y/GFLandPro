@@ -6,6 +6,7 @@
   <ABList Path="Assets/RealFram/Data/Binary/EnemyData.bytes" Crc="3841643933" ABName="data" AssetName="EnemyData.bytes" />
   <ABList Path="Assets/RealFram/Data/Binary/SceneData.bytes" Crc="3874122375" ABName="data" AssetName="SceneData.bytes" />
   <ABList Path="Assets/RealFram/Data/Binary/WaveData.bytes" Crc="2240778075" ABName="data" AssetName="WaveData.bytes" />
+  <ABList Path="Assets/RealFram/Data/Binary/WaveData_0101.bytes" Crc="3399961353" ABName="data" AssetName="WaveData_0101.bytes" />
   <ABList Path="Assets/RealFram/Data/Binary/WaveData_0701.bytes" Crc="3116184195" ABName="data" AssetName="WaveData_0701.bytes" />
   <ABList Path="Assets/枪火之地/prefabs/drone.prefab" Crc="3201399216" ABName="drone" AssetName="drone.prefab" />
   <ABList Path="Assets/枪火之地/Effects/Prefabs/ef_behit_02.prefab" Crc="1662204411" ABName="ef_behit_02" AssetName="ef_behit_02.prefab" />

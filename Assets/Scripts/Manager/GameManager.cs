@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoSingleton<GameManager>
 {
     [Header("测试使用")]
-    public string  waveID = "0701";
+    public string  waveID = "0101";
 
     [HideInInspector]
     public WaveData waveData;

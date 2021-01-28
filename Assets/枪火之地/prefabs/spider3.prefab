@@ -309,7 +309,7 @@ Transform:
   m_GameObject: {fileID: 8841969229251612345}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children:
   - {fileID: 4556378523887299202}
   - {fileID: 8841969229251842793}
@@ -400,6 +400,7 @@ MonoBehaviour:
   completeInStage: 0
   attackTimer: 0
   id_Attack: 1080829965
+  died: 0
   melee: 0
   startRange: {x: 0.6, y: 0.8}
   id_Melee: 237393061
