@@ -16,7 +16,7 @@ public class EnemyBehaviorWalk : EnemyBehaviorBase
 
         startAniSpeed = enemy.anim.speed;
         enemy.anim.speed = startAniSpeed * enemy.walkSpeedRatio;
-        enemy.bodyCollider.enabled = true;
+
 
         if (hadAgent)
         {

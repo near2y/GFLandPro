@@ -24,26 +24,55 @@ public class Emitter : MonoBehaviour
 
     Trajactory shootTrajactory = null;
 
-    private void Start()
+    private void Awake()
     {
-        GameObject shootObj = SceneManager.Instance.effectManager.GetEffect(bulletID);
-        shootObj.transform.SetParent(transform);
-        shootObj.transform.localPosition = Vector3.zero;
-        shootObj.transform.localEulerAngles = Vector3.zero;
-        shootObj.transform.localScale = Vector3.one;
-        shootTrajactory = shootObj.AddComponent<Trajactory>();
-        shootTrajactory.Init(this, bulletSpeed, shootCount, bulletFrequency, shootFrequency);
-        targets = SceneManager.Instance.enemyManager.enemyList;
-        for(int i = 0; i < penetrateCount; i++)
-        {
-            AddPenetrateAbility();
-        }
+        SetActive(false);
+    }
 
-        for(int i = 0; i < diffractionCount; i++)
-        {
-            AddDiffractionAbility();
-        }
+    //private void Start()
+    //{
+    //    GameObject shootObj = SceneManager.Instance.effectManager.GetEffect(bulletID);
+    //    shootObj.transform.SetParent(transform);
+    //    shootObj.transform.localPosition = Vector3.zero;
+    //    shootObj.transform.localEulerAngles = Vector3.zero;
+    //    shootObj.transform.localScale = Vector3.one;
+    //    shootTrajactory = shootObj.AddComponent<Trajactory>();
+    //    shootTrajactory.Init(this, bulletSpeed, shootCount, bulletFrequency, shootFrequency);
+    //    targets = SceneManager.Instance.enemyManager.enemyList;
+    //    for(int i = 0; i < penetrateCount; i++)
+    //    {
+    //        AddPenetrateAbility();
+    //    }
 
+    //    for(int i = 0; i < diffractionCount; i++)
+    //    {
+    //        AddDiffractionAbility();
+    //    }
+    //}
+
+    public void SetActive(bool active)
+    {
+        if (active && shootTrajactory == null)
+        {
+            GameObject shootObj = SceneManager.Instance.effectManager.GetEffect(bulletID);
+            shootObj.transform.SetParent(transform);
+            shootObj.transform.localPosition = Vector3.zero;
+            shootObj.transform.localEulerAngles = Vector3.zero;
+            shootObj.transform.localScale = Vector3.one;
+            shootTrajactory = shootObj.AddComponent<Trajactory>();
+            shootTrajactory.Init(this, bulletSpeed, shootCount, bulletFrequency, shootFrequency);
+            targets = SceneManager.Instance.enemyManager.enemyList;
+            for (int i = 0; i < penetrateCount; i++)
+            {
+                AddPenetrateAbility();
+            }
+
+            for (int i = 0; i < diffractionCount; i++)
+            {
+                AddDiffractionAbility();
+            }
+        }
+        enabled = active;
     }
 
     public void Attack(bool ing)
@@ -65,11 +94,11 @@ public class Emitter : MonoBehaviour
     }
 
 
-    public void SingleShot(Vector3 position,Vector3 targetPos)
+    public void SingleShot(Vector3 position, Vector3 targetPos)
     {
         shootTrajactory.Spwan(position, targetPos);
     }
-     
+
     private void Update()
     {
         shootTrajactory.transform.position = bulletPos.position;
@@ -83,7 +112,7 @@ public class Emitter : MonoBehaviour
     public void AddDiffractionAbility()
     {
         Trajactory t = shootTrajactory;
-        while (t.dTrajactory !=null)
+        while (t.dTrajactory != null)
         {
             t = t.dTrajactory;
         }

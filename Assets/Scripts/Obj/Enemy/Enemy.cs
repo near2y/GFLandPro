@@ -88,6 +88,8 @@ public abstract class  Enemy : MonoBehaviour
             meshRenderer.material.SetFloat("_DissvoleRange", 0);
             meshRenderer.material.SetFloat("_colorrange", startColorRange);
         }
+        //开启emitter
+        if(emitter != null)emitter.SetActive(true);
     }
 
 
@@ -99,6 +101,7 @@ public abstract class  Enemy : MonoBehaviour
 
     public void Dying()
     {
+        if(emitter!=null)emitter.SetActive(false);
         died = true;
         anim.Play(EnemyState.Dying);
         //手机震动

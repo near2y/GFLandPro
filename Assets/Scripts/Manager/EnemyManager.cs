@@ -13,6 +13,7 @@ public class EnemyManager :  MonoBehaviour
     /// </summary>
     public List<Enemy> enemyList;
 
+    public int enemyAliveCount = 0;
 
     void Start()
     {
@@ -39,7 +40,8 @@ public class EnemyManager :  MonoBehaviour
         //obj.transform.rotation = fullPoint.rotation;
         enemy.InStage(SceneManager.Instance.player.transform,fullPoint);
         enemy.hp = data.Hp;
-        //加到集合中
+        //计数
+        enemyAliveCount++;
     }
 
     /// <summary>
@@ -72,6 +74,7 @@ public class EnemyManager :  MonoBehaviour
             enemy.Release();
             enemyList.Remove(enemy);
             SceneManager.Instance.waveManager.CurrentWave.aliveEnemyNum--;
+            enemyAliveCount--;
         }
     }
 

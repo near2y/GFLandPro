@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3304972149
+CRC: 3942872997
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8452b80b9525ddcdf3ac40843e22ff65
+    Hash: e964c4c47d54bd25f0d5ad84c6459606
   TypeTreeHash:
     serializedVersion: 2
     Hash: 3d3b90f65183909fce99dd228d032c37
@@ -53,6 +53,7 @@ Assets:
 - "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/bl_gun03.mat"
 - "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/bl_gun00.mat"
 - "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/bl_gun02.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Animation/Player/lemon_show.fbx"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Texture/player/bl_gun01.png"
 - "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/bl_gun04.mat"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Animation/PlayerAC.controller"
@@ -67,6 +68,7 @@ Assets:
 - "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/bl_gun01.mat"
 - "Assets/\u67AA\u706B\u4E4B\u5730/materials/player/hm_lemon_01.mat"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Texture/player/bl_gun03.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Animation/Player/playerBirth.anim"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Animation/Player/run_right.anim"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Texture/player/bl_gun04.png"
 Dependencies: []

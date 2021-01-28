@@ -40,6 +40,7 @@ public class Player : MonoBehaviour
     Vector3 movement;
 
     CharacterController cCtrl;
+    bool inGame = false;
 
     private void Start()
     {
@@ -47,12 +48,12 @@ public class Player : MonoBehaviour
         anim.speed = aniSpeed;
         cCtrl = GetComponent<CharacterController>();
         movement = new Vector3();
-
     }
 
 
     private void FixedUpdate()
     {
+        if (!inGame) return;
         //Move
         if(!hadJoystick)
         {
@@ -65,8 +66,27 @@ public class Player : MonoBehaviour
         }
         ComMovement();
 
-        Attack();
-        
+        Attack();   
+    }
+
+    public void OnWin()
+    {
+        inGame = false;
+        //停止发射武器
+        emitter.Attack(false);
+        anim.Play("OverShow");
+    }
+
+    void OverInStage()
+    {
+        emitter.SetActive(true);
+        SceneManager.Instance.StartWave();
+        inGame = true;
+    }
+
+    void Vibrate()
+    {
+        Handheld.Vibrate();
     }
 
     void ComMovement()

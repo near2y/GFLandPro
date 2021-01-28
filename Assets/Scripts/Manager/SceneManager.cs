@@ -7,7 +7,6 @@ public class SceneManager : MonoSingleton<SceneManager>
     [Header("< 设置 >")]
     public Transform effectParent = null;
 
-    [HideInInspector]
     public Player player;
     public EnemyManager enemyManager;
     public WaveManager waveManager = null;
@@ -27,50 +26,43 @@ public class SceneManager : MonoSingleton<SceneManager>
     //初始化
     void Init()
     {
-        //waveManager
-        waveManager = new WaveManager(GameManager.Instance.waveData, this);
+
         //points
         enemyPoints = new EnemyPoints(pointsTrans);
         //player
-        player = ObjectManager.Instance.InstantiateObject(playerPrePath).GetComponent<Player>();
-        player.transform.SetParent(transform);
-        gameCamera.SetTarget(player.transform);
+        //player = ObjectManager.Instance.InstantiateObject(playerPrePath).GetComponent<Player>();
+        //player.transform.SetParent(transform);
+        //gameCamera.SetTarget(player.transform);
         //effectManager
         Transform parent = effectParent == null ? transform : effectParent;
         effectManager = new EffectManager(GameManager.Instance.effectData, parent);
 
     }
 
+    //游戏胜利
+    public void OnWin()
+    {
+        Debug.Log("游戏胜利了");
+        player.OnWin();
+    }
+
+    //开始波次
+    bool startedWave = false;
+    public void StartWave()
+    {
+        //waveManager
+        waveManager = new WaveManager(GameManager.Instance.waveData, this);
+        startedWave = true;
+    }
+
     private void Update()
     {
-        waveManager.Update();
+        if (startedWave)
+        {
+            waveManager.Update();
+        }
     }
 
-
-    public void GameStart()
-    {
-        //TODO
-        //玩家登场表现
-        //开始按照波次出怪
-    }
-
-    public void GamePause()
-    {
-        //TODO
-        //游戏暂停
-    }
-
-    public void GameResume()
-    {
-        //TODO
-        //游戏回复
-    }
-
-    public void GameOver()
-    {
-        //TODO
-        //游戏结束
-    }
 
     
 

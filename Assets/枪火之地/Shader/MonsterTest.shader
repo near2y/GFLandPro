@@ -129,106 +129,106 @@ Shader "GFLand/Monster" {
             }
             ENDCG
         }
-        Pass {
-            Name "FORWARD_DELTA"
-            Tags {
-                "LightMode"="ForwardAdd"
-            }
-            Blend One One
+//        Pass {
+//            Name "FORWARD_DELTA"
+//            Tags {
+//                "LightMode"="ForwardAdd"
+//            }
+//            Blend One One
             
             
-            CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
-            #include "UnityCG.cginc"
-            #include "AutoLight.cginc"
-            #pragma multi_compile_fwdadd_fullshadows
-            #pragma multi_compile_fog
-            #pragma only_renderers d3d9 d3d11 glcore gles gles3 
-            #pragma target 3.0
-            uniform float4 _LightColor0;
-            uniform sampler2D _Diffusetexture2d; uniform float4 _Diffusetexture2d_ST;
-            uniform float4 _DiffuseColor;
-            uniform float _colorrange;
-            uniform float4 _rimlightcolor;
-            uniform sampler2D _Metallic; uniform float4 _Metallic_ST;
-            uniform float4 _MetallicColor;
-            uniform sampler2D _EmiisionTex2d; uniform float4 _EmiisionTex2d_ST;
-            uniform float4 _EmissionColor;
-            uniform float _Emissionlightrange;
-            uniform sampler2D _Normalmap; uniform float4 _Normalmap_ST;
-            uniform float _DissvoleRange;
-            uniform sampler2D _DissvoleMap; uniform float4 _DissvoleMap_ST;
-            uniform float _rimlightstrength;
-            struct VertexInput {
-                float4 vertex : POSITION;
-                float3 normal : NORMAL;
-                float4 tangent : TANGENT;
-                float2 texcoord0 : TEXCOORD0;
-            };
-            struct VertexOutput {
-                float4 pos : SV_POSITION;
-                float2 uv0 : TEXCOORD0;
-                float4 posWorld : TEXCOORD1;
-                float3 normalDir : TEXCOORD2;
-                float3 tangentDir : TEXCOORD3;
-                float3 bitangentDir : TEXCOORD4;
-                LIGHTING_COORDS(5,6)
-                UNITY_FOG_COORDS(7)
-            };
-            VertexOutput vert (VertexInput v) {
-                VertexOutput o = (VertexOutput)0;
-                o.uv0 = v.texcoord0;
-                o.normalDir = UnityObjectToWorldNormal(v.normal);
-                o.tangentDir = normalize( mul( unity_ObjectToWorld, float4( v.tangent.xyz, 0.0 ) ).xyz );
-                o.bitangentDir = normalize(cross(o.normalDir, o.tangentDir) * v.tangent.w);
-                o.posWorld = mul(unity_ObjectToWorld, v.vertex);
-                float3 lightColor = _LightColor0.rgb;
-                o.pos = UnityObjectToClipPos( v.vertex );
-                UNITY_TRANSFER_FOG(o,o.pos);
-                TRANSFER_VERTEX_TO_FRAGMENT(o)
-                return o;
-            }
-            float4 frag(VertexOutput i) : COLOR {
-                i.normalDir = normalize(i.normalDir);
-                float3x3 tangentTransform = float3x3( i.tangentDir, i.bitangentDir, i.normalDir);
-                float3 viewDirection = normalize(_WorldSpaceCameraPos.xyz - i.posWorld.xyz);
-                float3 _Normalmap_var = UnpackNormal(tex2D(_Normalmap,TRANSFORM_TEX(i.uv0, _Normalmap)));
-                float3 normalLocal = _Normalmap_var.rgb;
-                float3 normalDirection = normalize(mul( normalLocal, tangentTransform )); // Perturbed normals
-                float4 _DissvoleMap_var = tex2D(_DissvoleMap,TRANSFORM_TEX(i.uv0, _DissvoleMap));
-                clip((0.0+step(_DissvoleRange,_DissvoleMap_var.r)) - 0.5);
-                float3 lightDirection = normalize(lerp(_WorldSpaceLightPos0.xyz, _WorldSpaceLightPos0.xyz - i.posWorld.xyz,_WorldSpaceLightPos0.w));
-                float3 lightColor = _LightColor0.rgb;
-                float3 halfDirection = normalize(viewDirection+lightDirection);
-////// Lighting:
-                UNITY_LIGHT_ATTENUATION(attenuation, i, i.posWorld.xyz);
-                float3 attenColor = attenuation * _LightColor0.xyz;
-///////// Gloss:
-                float gloss = 0.5;
-                float specPow = exp2( gloss * 10.0 + 1.0 );
-////// Specular:
-                float NdotL = saturate(dot( normalDirection, lightDirection ));
-                float4 _Metallic_var = tex2D(_Metallic,TRANSFORM_TEX(i.uv0, _Metallic));
-                float3 specularColor = (_Metallic_var.rgb*_MetallicColor.rgb);
-                float3 directSpecular = attenColor * pow(max(0,dot(halfDirection,normalDirection)),specPow)*specularColor;
-                float3 specular = directSpecular;
-/////// Diffuse:
-                NdotL = max(0.0,dot( normalDirection, lightDirection ));
-                float3 directDiffuse = max( 0.0, NdotL) * attenColor;
-                float4 _Diffusetexture2d_var = tex2D(_Diffusetexture2d,TRANSFORM_TEX(i.uv0, _Diffusetexture2d));
-                float3 node_9994 = (_Diffusetexture2d_var.rgb*(_DiffuseColor.rgb*_colorrange));
-                float3 node_5631 = (_rimlightcolor.rgb*pow(1.0-max(0,dot(normalDirection, viewDirection)),_rimlightstrength));
-                float3 diffuseColor = (node_9994+node_5631);
-                float3 diffuse = directDiffuse * diffuseColor;
-/// Final Color:
-                float3 finalColor = diffuse + specular;
-                fixed4 finalRGBA = fixed4(finalColor * 1,0);
-                UNITY_APPLY_FOG(i.fogCoord, finalRGBA);
-                return finalRGBA;
-            }
-            ENDCG
-        }
+//            CGPROGRAM
+//            #pragma vertex vert
+//            #pragma fragment frag
+//            #include "UnityCG.cginc"
+//            #include "AutoLight.cginc"
+//            #pragma multi_compile_fwdadd_fullshadows
+//            #pragma multi_compile_fog
+//            #pragma only_renderers d3d9 d3d11 glcore gles gles3 
+//            #pragma target 3.0
+//            uniform float4 _LightColor0;
+//            uniform sampler2D _Diffusetexture2d; uniform float4 _Diffusetexture2d_ST;
+//            uniform float4 _DiffuseColor;
+//            uniform float _colorrange;
+//            uniform float4 _rimlightcolor;
+//            uniform sampler2D _Metallic; uniform float4 _Metallic_ST;
+//            uniform float4 _MetallicColor;
+//            uniform sampler2D _EmiisionTex2d; uniform float4 _EmiisionTex2d_ST;
+//            uniform float4 _EmissionColor;
+//            uniform float _Emissionlightrange;
+//            uniform sampler2D _Normalmap; uniform float4 _Normalmap_ST;
+//            uniform float _DissvoleRange;
+//            uniform sampler2D _DissvoleMap; uniform float4 _DissvoleMap_ST;
+//            uniform float _rimlightstrength;
+//            struct VertexInput {
+//                float4 vertex : POSITION;
+//                float3 normal : NORMAL;
+//                float4 tangent : TANGENT;
+//                float2 texcoord0 : TEXCOORD0;
+//            };
+//            struct VertexOutput {
+//                float4 pos : SV_POSITION;
+//                float2 uv0 : TEXCOORD0;
+//                float4 posWorld : TEXCOORD1;
+//                float3 normalDir : TEXCOORD2;
+//                float3 tangentDir : TEXCOORD3;
+//                float3 bitangentDir : TEXCOORD4;
+//                LIGHTING_COORDS(5,6)
+//                UNITY_FOG_COORDS(7)
+//            };
+//            VertexOutput vert (VertexInput v) {
+//                VertexOutput o = (VertexOutput)0;
+//                o.uv0 = v.texcoord0;
+//                o.normalDir = UnityObjectToWorldNormal(v.normal);
+//                o.tangentDir = normalize( mul( unity_ObjectToWorld, float4( v.tangent.xyz, 0.0 ) ).xyz );
+//                o.bitangentDir = normalize(cross(o.normalDir, o.tangentDir) * v.tangent.w);
+//                o.posWorld = mul(unity_ObjectToWorld, v.vertex);
+//                float3 lightColor = _LightColor0.rgb;
+//                o.pos = UnityObjectToClipPos( v.vertex );
+//                UNITY_TRANSFER_FOG(o,o.pos);
+//                TRANSFER_VERTEX_TO_FRAGMENT(o)
+//                return o;
+//            }
+//            float4 frag(VertexOutput i) : COLOR {
+//                i.normalDir = normalize(i.normalDir);
+//                float3x3 tangentTransform = float3x3( i.tangentDir, i.bitangentDir, i.normalDir);
+//                float3 viewDirection = normalize(_WorldSpaceCameraPos.xyz - i.posWorld.xyz);
+//                float3 _Normalmap_var = UnpackNormal(tex2D(_Normalmap,TRANSFORM_TEX(i.uv0, _Normalmap)));
+//                float3 normalLocal = _Normalmap_var.rgb;
+//                float3 normalDirection = normalize(mul( normalLocal, tangentTransform )); // Perturbed normals
+//                float4 _DissvoleMap_var = tex2D(_DissvoleMap,TRANSFORM_TEX(i.uv0, _DissvoleMap));
+//                clip((0.0+step(_DissvoleRange,_DissvoleMap_var.r)) - 0.5);
+//                float3 lightDirection = normalize(lerp(_WorldSpaceLightPos0.xyz, _WorldSpaceLightPos0.xyz - i.posWorld.xyz,_WorldSpaceLightPos0.w));
+//                float3 lightColor = _LightColor0.rgb;
+//                float3 halfDirection = normalize(viewDirection+lightDirection);
+//////// Lighting:
+//                UNITY_LIGHT_ATTENUATION(attenuation, i, i.posWorld.xyz);
+//                float3 attenColor = attenuation * _LightColor0.xyz;
+/////////// Gloss:
+//                float gloss = 0.5;
+//                float specPow = exp2( gloss * 10.0 + 1.0 );
+//////// Specular:
+//                float NdotL = saturate(dot( normalDirection, lightDirection ));
+//                float4 _Metallic_var = tex2D(_Metallic,TRANSFORM_TEX(i.uv0, _Metallic));
+//                float3 specularColor = (_Metallic_var.rgb*_MetallicColor.rgb);
+//                float3 directSpecular = attenColor * pow(max(0,dot(halfDirection,normalDirection)),specPow)*specularColor;
+//                float3 specular = directSpecular;
+///////// Diffuse:
+//                NdotL = max(0.0,dot( normalDirection, lightDirection ));
+//                float3 directDiffuse = max( 0.0, NdotL) * attenColor;
+//                float4 _Diffusetexture2d_var = tex2D(_Diffusetexture2d,TRANSFORM_TEX(i.uv0, _Diffusetexture2d));
+//                float3 node_9994 = (_Diffusetexture2d_var.rgb*(_DiffuseColor.rgb*_colorrange));
+//                float3 node_5631 = (_rimlightcolor.rgb*pow(1.0-max(0,dot(normalDirection, viewDirection)),_rimlightstrength));
+//                float3 diffuseColor = (node_9994+node_5631);
+//                float3 diffuse = directDiffuse * diffuseColor;
+///// Final Color:
+//                float3 finalColor = diffuse + specular;
+//                fixed4 finalRGBA = fixed4(finalColor * 1,0);
+//                UNITY_APPLY_FOG(i.fogCoord, finalRGBA);
+//                return finalRGBA;
+//            }
+//            ENDCG
+//        }
         Pass {
             Name "ShadowCaster"
             Tags {
@@ -273,5 +273,5 @@ Shader "GFLand/Monster" {
         }
     }
     FallBack "Diffuse"
-    CustomEditor "ShaderForgeMaterialInspector"
+    //CustomEditor "ShaderForgeMaterialInspector"
 }

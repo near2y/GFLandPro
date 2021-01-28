@@ -14,7 +14,7 @@ public class WaveBehavior
     float timer = 0f;
     float maxTimer = 0f;
     int nextWaveActiveNum = 0;
-    bool overSpwan = false;
+    public bool overSpwan = false;
     public int aliveEnemyNum = 0;
     #endregion
 

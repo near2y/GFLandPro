@@ -24,5 +24,10 @@ public class GameManager : MonoSingleton<GameManager>
         waveData = ConfigerManager.Instance.FindData<WaveData>(wavePath);
         GameMapManager.Instance.LoadScene(waveData.AllWaveList[0].SceneName, 2);
     }
+
+    public void GameOver()
+    {
+
+    }
 }
 

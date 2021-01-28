@@ -7,7 +7,9 @@ using Cinemachine;
 public class GameCamera : MonoBehaviour
 {
     public float smoothing = 5;
-    public CinemachineVirtualCamera followCamera;
+    public CinemachineVirtualCamera walkCamera;
+    public CinemachineVirtualCamera inStageCamera;
+    public CinemachineStateDrivenCamera drivenCamera;
 
 
     Transform followTarget = null;
@@ -18,19 +20,23 @@ public class GameCamera : MonoBehaviour
 
     private void Start()
     {
-        shakePerlin = followCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+        shakePerlin = walkCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
     }
 
-    public void SetTarget(Transform target)
-    {
-        if(target == null)
-        {
-            Debug.LogError("设置摄像机跟随对象为空，请检查！");
-            return;
-        }
-        followTarget = target;
-        followCamera.Follow = followTarget;
-    }
+    //public void SetTarget(Transform target)
+    //{
+    //    if(target == null)
+    //    {
+    //        Debug.LogError("设置摄像机跟随对象为空，请检查！");
+    //        return;
+    //    }
+    //    followTarget = target;
+    //    walkCamera.Follow = followTarget;
+    //    inStageCamera.LookAt = followTarget;
+       
+    //    //drivenCamera.State.AddCustomBlendable()
+
+    //}
 
     private void Update()
     {
