@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 492885604
+CRC: 3647821634
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 3f2ae611680e204ccf5c871f388fd4d1
+    Hash: fe6a7645519d868d5240e5bc0cc988ea
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 394c42d0042b1a35e0afad87f7deb22e
+    Hash: ff18f41b38e06ab0b064e39b9ecc92c5
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -43,8 +43,8 @@ ClassTypes:
   Script: {instanceID: 0}
 Assets:
 - "Assets/\u67AA\u706B\u4E4B\u5730/Texture/UGUI/Home.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/UGUI/nextGame.png"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Texture/UGUI/Clear.png"
 - "Assets/\u67AA\u706B\u4E4B\u5730/prefabs/UGUI/Panel/GamePanel.prefab"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/UGUI/Add.png"
 Dependencies:
 - "F:/Near2y/SVN/shejiAPP/\u7A0B\u5E8F\u5DE5\u7A0B/Assets/../AssetBundle/Android/joystick"

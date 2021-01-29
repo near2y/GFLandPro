@@ -19,7 +19,7 @@ public abstract class  Enemy : MonoBehaviour
     //登场速度比例
     public float inStageSpeedRatio = 1;
     //怪物材质
-    public SkinnedMeshRenderer meshRenderer = null;
+    public Renderer meshRenderer = null;
 
     [Header("< 调试相关 >")]
     public Transform startPos;
@@ -110,7 +110,7 @@ public abstract class  Enemy : MonoBehaviour
         //SceneManager.Instance.gameCamera.ShakeCamera(3, 0.05f);
         if (meshRenderer != null)
         {
-            meshRenderer.material.SetFloat("_colorrange", 0.3f);
+            meshRenderer.material.SetFloat("_colorrange", 0.2f);
         }
     }
 

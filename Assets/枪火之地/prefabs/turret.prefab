@@ -406,7 +406,7 @@ MonoBehaviour:
   walkSpeedRatio: 1
   attackSpeedRatio: 1
   inStageSpeedRatio: 1
-  meshRenderer: {fileID: 0}
+  meshRenderer: {fileID: 5739122795870518880}
   startPos: {fileID: 0}
   agentTarget: {fileID: 0}
   emitter: {fileID: 0}

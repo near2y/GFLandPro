@@ -17,7 +17,7 @@ public class Turret : Enemy
     }
 
 
-    protected void Update()
+    new void Update()
     {
         base.Update();
         shootTimer += Time.deltaTime * 1000;

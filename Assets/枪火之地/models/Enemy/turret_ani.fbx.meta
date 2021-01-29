@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6f3ee9207b6e3214789e907608736c2f
+guid: 47b509e3896254248b7c46358ff11ef4
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -12,6 +12,8 @@ ModelImporter:
     100012: bone_turret07
     100014: turret_0
     100016: //RootNode
+    100018: root_pointy
+    100020: root_pointz
     400000: bone_turret01
     400002: bone_turret02
     400004: bone_turret03
@@ -21,24 +23,21 @@ ModelImporter:
     400012: bone_turret07
     400014: turret_0
     400016: //RootNode
+    400018: root_pointy
+    400020: root_pointz
+    2100000: ms_turret_white_01
     4300000: turret_0
-    7400000: birth
-    7400002: fire
-    7400004: Take 001 (2)
-    7400006: Take 001 (3)
+    7400000: Turret_Birth
+    7400002: Turret_Fire
+    7400004: Turret_Dying
     9500000: //RootNode
     13700000: turret_0
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ms_turret_white_01
-    second: {fileID: 2100000, guid: 3e84689f2f7380445b2930eee258285c, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -62,7 +61,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: birth
+      name: Turret_Birth
       takeName: Take 001
       firstFrame: 0
       lastFrame: 25
@@ -85,30 +84,12 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: bone_turret01
-        weight: 1
-      - path: bone_turret01/bone_turret02
-        weight: 1
-      - path: bone_turret01/bone_turret02/bone_turret03
-        weight: 1
-      - path: bone_turret01/bone_turret02/bone_turret03/bone_turret04
-        weight: 1
-      - path: bone_turret01/bone_turret02/bone_turret03/bone_turret04/bone_turret05
-        weight: 1
-      - path: bone_turret01/bone_turret02/bone_turret03/bone_turret04/bone_turret05/bone_turret06
-        weight: 1
-      - path: bone_turret01/bone_turret02/bone_turret03/bone_turret04/bone_turret05/bone_turret06/bone_turret07
-        weight: 1
-      - path: turret_0
-        weight: 1
+      transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: fire
+      name: Turret_Fire
       takeName: Take 001
       firstFrame: 30
       lastFrame: 60
@@ -131,30 +112,12 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: bone_turret01
-        weight: 1
-      - path: bone_turret01/bone_turret02
-        weight: 1
-      - path: bone_turret01/bone_turret02/bone_turret03
-        weight: 1
-      - path: bone_turret01/bone_turret02/bone_turret03/bone_turret04
-        weight: 1
-      - path: bone_turret01/bone_turret02/bone_turret03/bone_turret04/bone_turret05
-        weight: 1
-      - path: bone_turret01/bone_turret02/bone_turret03/bone_turret04/bone_turret05/bone_turret06
-        weight: 1
-      - path: bone_turret01/bone_turret02/bone_turret03/bone_turret04/bone_turret05/bone_turret06/bone_turret07
-        weight: 1
-      - path: turret_0
-        weight: 1
+      transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Take 001 (2)
+      name: Turret_Dying
       takeName: Take 001
       firstFrame: 70
       lastFrame: 105
@@ -177,39 +140,21 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: bone_turret01
-        weight: 1
-      - path: bone_turret01/bone_turret02
-        weight: 1
-      - path: bone_turret01/bone_turret02/bone_turret03
-        weight: 1
-      - path: bone_turret01/bone_turret02/bone_turret03/bone_turret04
-        weight: 1
-      - path: bone_turret01/bone_turret02/bone_turret03/bone_turret04/bone_turret05
-        weight: 1
-      - path: bone_turret01/bone_turret02/bone_turret03/bone_turret04/bone_turret05/bone_turret06
-        weight: 1
-      - path: bone_turret01/bone_turret02/bone_turret03/bone_turret04/bone_turret05/bone_turret06/bone_turret07
-        weight: 1
-      - path: turret_0
-        weight: 1
+      transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1.75
+    globalScale: 1.5
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    importVisibility: 0
+    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -217,20 +162,20 @@ ModelImporter:
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    indexFormat: 1
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.0175
+    previousCalculatedGlobalScale: 0.015
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   importAnimation: 1
