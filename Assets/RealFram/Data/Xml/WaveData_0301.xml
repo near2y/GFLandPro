@@ -1,0 +1,979 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WaveData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AllWaveList ID="1" WaveID="0" DelayTime="300" PointID="4003" EnemyID="2001">
+    <EnemyName>开场前方降落四只绿蜘蛛，剩一只激活下一波</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="2" WaveID="0" DelayTime="600" PointID="4004" EnemyID="2001">
+    <EnemyName>绿蜘蛛</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="3" WaveID="0" DelayTime="900" PointID="4008" EnemyID="2001">
+    <EnemyName>绿蜘蛛</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="4" WaveID="0" DelayTime="1200" PointID="4009" EnemyID="2001">
+    <EnemyName>绿蜘蛛</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="5" WaveID="1" DelayTime="500" PointID="1002" EnemyID="2001">
+    <EnemyName>第二波蜘蛛，穿插一只红蜘蛛一只白蜘蛛</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>2</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="6" WaveID="1" DelayTime="500" PointID="1003" EnemyID="2004">
+    <EnemyName>第二波蜘蛛，穿插一只红蜘蛛一只白蜘蛛</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>2</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="7" WaveID="1" DelayTime="1000" PointID="1007" EnemyID="2001">
+    <EnemyName>第二波蜘蛛，穿插一只红蜘蛛一只白蜘蛛</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>2</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="8" WaveID="1" DelayTime="1000" PointID="1006" EnemyID="2001">
+    <EnemyName>第二波蜘蛛，穿插一只红蜘蛛一只白蜘蛛</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>2</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="9" WaveID="1" DelayTime="1500" PointID="1008" EnemyID="2003">
+    <EnemyName>第二波蜘蛛，穿插一只红蜘蛛一只白蜘蛛</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>2</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="10" WaveID="2" DelayTime="500" PointID="4013" EnemyID="2002">
+    <EnemyName>无人机波次穿插一只泰坦</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="11" WaveID="2" DelayTime="500" PointID="4015" EnemyID="2002">
+    <EnemyName>无人机波次穿插一只泰坦</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="12" WaveID="2" DelayTime="1500" PointID="4007" EnemyID="2002">
+    <EnemyName>无人机波次穿插一只泰坦</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="13" WaveID="2" DelayTime="1500" PointID="4006" EnemyID="2002">
+    <EnemyName>无人机波次穿插一只泰坦</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="14" WaveID="2" DelayTime="4000" PointID="4014" EnemyID="2008">
+    <EnemyName>两种泰坦中的一个（偏向是近战的，迫使玩家向上方移动）</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="15" WaveID="3" DelayTime="500" PointID="1006" EnemyID="2001">
+    <EnemyName>右侧爬行陆地降落以及空中降落怪（逼迫玩家向左移动）</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>3</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="16" WaveID="3" DelayTime="500" PointID="1008" EnemyID="2003">
+    <EnemyName>右侧爬行陆地降落以及空中降落怪</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>3</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="17" WaveID="3" DelayTime="2000" PointID="2009" EnemyID="2001">
+    <EnemyName>右侧爬行陆地降落以及空中降落怪</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>3</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="18" WaveID="3" DelayTime="2000" PointID="9007" EnemyID="2002">
+    <EnemyName>右侧爬行陆地降落以及空中降落怪</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>3</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="19" WaveID="3" DelayTime="3500" PointID="2007" EnemyID="2001">
+    <EnemyName>右侧爬行陆地降落以及空中降落怪</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>3</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="20" WaveID="3" DelayTime="3500" PointID="2010" EnemyID="2002">
+    <EnemyName>右侧爬行陆地降落以及空中降落怪</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>3</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="21" WaveID="3" DelayTime="5000" PointID="9010" EnemyID="2002">
+    <EnemyName>右侧爬行陆地降落以及空中降落怪</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>3</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="22" WaveID="3" DelayTime="5000" PointID="8008" EnemyID="2002">
+    <EnemyName>右侧爬行陆地降落以及空中降落怪</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>3</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="23" WaveID="3" DelayTime="5000" PointID="7002" EnemyID="2005">
+    <EnemyName>右侧爬行陆地降落以及空中降落怪</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>3</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="24" WaveID="4" DelayTime="500" PointID="1007" EnemyID="2001">
+    <EnemyName>泰坦</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="25" WaveID="4" DelayTime="500" PointID="1009" EnemyID="2001">
+    <EnemyName>泰坦</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="26" WaveID="4" DelayTime="2000" PointID="3008" EnemyID="2002">
+    <EnemyName>泰坦</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="27" WaveID="4" DelayTime="2000" PointID="1007" EnemyID="2006">
+    <EnemyName>泰坦</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="28" WaveID="4" DelayTime="3500" PointID="5002" EnemyID="2002">
+    <EnemyName>泰坦</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="29" WaveID="5" DelayTime="500" PointID="4001" EnemyID="2004">
+    <EnemyName>右下方波次，逼迫玩家向左上方行走</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="30" WaveID="5" DelayTime="500" PointID="4010" EnemyID="2001">
+    <EnemyName>右下方波次，逼迫玩家向左上方行走</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="31" WaveID="5" DelayTime="1500" PointID="4006" EnemyID="2001">
+    <EnemyName>右下方波次，逼迫玩家向左上方行走</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="32" WaveID="5" DelayTime="1500" PointID="4015" EnemyID="2004">
+    <EnemyName>右下方波次，逼迫玩家向左上方行走</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="33" WaveID="5" DelayTime="1500" PointID="4009" EnemyID="2001">
+    <EnemyName>右下方波次，逼迫玩家向左上方行走</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="34" WaveID="6" DelayTime="500" PointID="1010" EnemyID="2001">
+    <EnemyName>正左方墙边蜘蛛+无人机</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>2</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="35" WaveID="6" DelayTime="500" PointID="1009" EnemyID="2001">
+    <EnemyName>正左方墙边蜘蛛+无人机</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>2</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="36" WaveID="6" DelayTime="3000" PointID="1007" EnemyID="2001">
+    <EnemyName>正左方墙边蜘蛛+无人机</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>2</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="37" WaveID="6" DelayTime="3000" PointID="8009" EnemyID="2002">
+    <EnemyName>正左方墙边蜘蛛+无人机</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>2</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="38" WaveID="6" DelayTime="5000" PointID="8010" EnemyID="2002">
+    <EnemyName>正左方墙边蜘蛛+无人机</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>2</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="39" WaveID="6" DelayTime="5000" PointID="10008" EnemyID="2002">
+    <EnemyName>正左方墙边蜘蛛+无人机</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>2</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="40" WaveID="7" DelayTime="500" PointID="3006" EnemyID="2001">
+    <EnemyName>左边偏上方爬墙落地蜘蛛，穿插红蜘蛛以及白蜘蛛，逼迫玩家向左上方移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="41" WaveID="7" DelayTime="600" PointID="5002" EnemyID="2001">
+    <EnemyName>左边偏上方爬墙落地蜘蛛，穿插红蜘蛛以及白蜘蛛，逼迫玩家向左上方移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="42" WaveID="7" DelayTime="2500" PointID="3001" EnemyID="2003">
+    <EnemyName>左边偏上方爬墙落地蜘蛛，穿插红蜘蛛以及白蜘蛛，逼迫玩家向左上方移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="43" WaveID="7" DelayTime="2600" PointID="3005" EnemyID="2004">
+    <EnemyName>左边偏上方爬墙落地蜘蛛，穿插红蜘蛛以及白蜘蛛，逼迫玩家向左上方移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="44" WaveID="7" DelayTime="4500" PointID="5007" EnemyID="2003">
+    <EnemyName>左边偏上方爬墙落地蜘蛛，穿插红蜘蛛以及白蜘蛛，逼迫玩家向左上方移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="45" WaveID="7" DelayTime="4600" PointID="5012" EnemyID="2001">
+    <EnemyName>左边偏上方爬墙落地蜘蛛，穿插红蜘蛛以及白蜘蛛，逼迫玩家向左上方移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="46" WaveID="7" DelayTime="6500" PointID="5003" EnemyID="2003">
+    <EnemyName>左边偏上方爬墙落地蜘蛛，穿插红蜘蛛以及白蜘蛛，逼迫玩家向左上方移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="47" WaveID="7" DelayTime="6600" PointID="5008" EnemyID="2001">
+    <EnemyName>左边偏上方爬墙落地蜘蛛，穿插红蜘蛛以及白蜘蛛，逼迫玩家向左上方移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="48" WaveID="8" DelayTime="500" PointID="10006" EnemyID="2002">
+    <EnemyName>无人机波次</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="49" WaveID="8" DelayTime="500" PointID="10007" EnemyID="2002">
+    <EnemyName>无人机波次</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="50" WaveID="8" DelayTime="2000" PointID="10003" EnemyID="2002">
+    <EnemyName>无人机波次</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="51" WaveID="8" DelayTime="2000" PointID="10002" EnemyID="2002">
+    <EnemyName>无人机波次</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="52" WaveID="8" DelayTime="3500" PointID="10001" EnemyID="2002">
+    <EnemyName>无人机波次</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="53" WaveID="8" DelayTime="3500" PointID="10005" EnemyID="2002">
+    <EnemyName>无人机波次</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="54" WaveID="9" DelayTime="500" PointID="5009" EnemyID="2003">
+    <EnemyName>三只白蜘蛛，左上偏下位置，逼迫玩家走向上方甬道</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="55" WaveID="9" DelayTime="1000" PointID="5008" EnemyID="2003">
+    <EnemyName>三只白蜘蛛，左上偏下位置，逼迫玩家走向上方甬道</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="56" WaveID="9" DelayTime="1500" PointID="5013" EnemyID="2003">
+    <EnemyName>三只白蜘蛛，左上偏下位置，逼迫玩家走向上方甬道</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="57" WaveID="10" DelayTime="500" PointID="5010" EnemyID="2001">
+    <EnemyName>绿蜘蛛*2加红蜘蛛</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="58" WaveID="10" DelayTime="1000" PointID="5015" EnemyID="2004">
+    <EnemyName>绿蜘蛛*3加红蜘蛛</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="59" WaveID="10" DelayTime="1500" PointID="5006" EnemyID="2001">
+    <EnemyName>绿蜘蛛*4加红蜘蛛</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="60" WaveID="11" DelayTime="0" PointID="3001" EnemyID="2001">
+    <EnemyName>大批量爬行蜘蛛波次顺次出，逼迫玩家向右方移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="61" WaveID="11" DelayTime="1000" PointID="3002" EnemyID="2001">
+    <EnemyName>大批量爬行蜘蛛波次顺次出，逼迫玩家向右方移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="62" WaveID="11" DelayTime="2000" PointID="3004" EnemyID="2001">
+    <EnemyName>大批量爬行蜘蛛波次顺次出，逼迫玩家向右方移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="63" WaveID="11" DelayTime="3000" PointID="3007" EnemyID="2001">
+    <EnemyName>大批量爬行蜘蛛波次顺次出，逼迫玩家向右方移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="64" WaveID="11" DelayTime="4000" PointID="3009" EnemyID="2001">
+    <EnemyName>大批量爬行蜘蛛波次顺次出，逼迫玩家向右方移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="65" WaveID="11" DelayTime="5000" PointID="3010" EnemyID="2001">
+    <EnemyName>大批量爬行蜘蛛波次顺次出，逼迫玩家向右方移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="66" WaveID="11" DelayTime="6000" PointID="7003" EnemyID="2001">
+    <EnemyName>大批量爬行蜘蛛波次顺次出，逼迫玩家向右方移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="67" WaveID="11" DelayTime="7000" PointID="2008" EnemyID="2001">
+    <EnemyName>大批量爬行蜘蛛波次顺次出，逼迫玩家向右方移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>1</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="68" WaveID="12" DelayTime="2217" PointID="7003" EnemyID="2008">
+    <EnemyName>右上偏上侧边爬行以及降落蜘蛛，红白绿，泰坦、无人机,逼迫玩家向右侧甬道移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="69" WaveID="12" DelayTime="4486" PointID="2008" EnemyID="2003">
+    <EnemyName>五秒内出完，高潮</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="70" WaveID="12" DelayTime="1881" PointID="6007" EnemyID="2004">
+    <EnemyName>五秒内出完，高潮</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="71" WaveID="12" DelayTime="2802" PointID="6012" EnemyID="2001">
+    <EnemyName>五秒内出完，高潮</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="72" WaveID="12" DelayTime="2053" PointID="2006" EnemyID="2001">
+    <EnemyName>五秒内出完，高潮</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="73" WaveID="12" DelayTime="867" PointID="6008" EnemyID="2003">
+    <EnemyName>五秒内出完，高潮</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="74" WaveID="12" DelayTime="1199" PointID="2003" EnemyID="2001">
+    <EnemyName>五秒内出完，高潮</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="75" WaveID="12" DelayTime="2342" PointID="6003" EnemyID="2001">
+    <EnemyName>五秒内出完，高潮</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="76" WaveID="12" DelayTime="4334" PointID="9006" EnemyID="2002">
+    <EnemyName>五秒内出完，高潮</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="77" WaveID="12" DelayTime="2839" PointID="9005" EnemyID="2002">
+    <EnemyName>五秒内出完，高潮</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="78" WaveID="13" DelayTime="545" PointID="4007" EnemyID="2001">
+    <EnemyName>小批量落地蜘蛛，逼迫玩家向右上小幅度移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="79" WaveID="13" DelayTime="1990" PointID="4008" EnemyID="2001">
+    <EnemyName>小批量落地蜘蛛，逼迫玩家向右上小幅度移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="80" WaveID="13" DelayTime="1848" PointID="4003" EnemyID="2001">
+    <EnemyName>小批量落地蜘蛛，逼迫玩家向右上小幅度移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="81" WaveID="13" DelayTime="1002" PointID="1005" EnemyID="2001">
+    <EnemyName>小批量落地蜘蛛，逼迫玩家向右上小幅度移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="82" WaveID="13" DelayTime="63" PointID="1008" EnemyID="2001">
+    <EnemyName>小批量落地蜘蛛，逼迫玩家向右上小幅度移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="83" WaveID="13" DelayTime="1966" PointID="1006" EnemyID="2004">
+    <EnemyName>小批量落地蜘蛛，逼迫玩家向右上小幅度移动</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="84" WaveID="14" DelayTime="0" PointID="6002" EnemyID="2001">
+    <EnemyName>右上角落地蜘蛛，逼迫玩家退出右侧位置，2秒一层，一层2只，总共出5层</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="85" WaveID="14" DelayTime="0" PointID="6012" EnemyID="2001">
+    <EnemyName>右上角落地蜘蛛，逼迫玩家退出右侧位置，2秒一层，一层2只，总共出6层</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="86" WaveID="14" DelayTime="2000" PointID="9008" EnemyID="2002">
+    <EnemyName>右上角落地蜘蛛，逼迫玩家退出右侧位置，2秒一层，一层2只，总共出7层</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="87" WaveID="14" DelayTime="2000" PointID="6013" EnemyID="2001">
+    <EnemyName>右上角落地蜘蛛，逼迫玩家退出右侧位置，2秒一层，一层2只，总共出8层</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="88" WaveID="14" DelayTime="4000" PointID="6014" EnemyID="2003">
+    <EnemyName>右上角落地蜘蛛，逼迫玩家退出右侧位置，2秒一层，一层2只，总共出9层</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="89" WaveID="14" DelayTime="4000" PointID="2001" EnemyID="2001">
+    <EnemyName>右上角落地蜘蛛，逼迫玩家退出右侧位置，2秒一层，一层2只，总共出10层</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="90" WaveID="14" DelayTime="6000" PointID="9001" EnemyID="2002">
+    <EnemyName>右上角落地蜘蛛，逼迫玩家退出右侧位置，2秒一层，一层2只，总共出11层</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="91" WaveID="14" DelayTime="6000" PointID="6005" EnemyID="2003">
+    <EnemyName>右上角落地蜘蛛，逼迫玩家退出右侧位置，2秒一层，一层2只，总共出12层</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="92" WaveID="14" DelayTime="8000" PointID="9004" EnemyID="2002">
+    <EnemyName>右上角落地蜘蛛，逼迫玩家退出右侧位置，2秒一层，一层2只，总共出13层</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="93" WaveID="14" DelayTime="8000" PointID="6011" EnemyID="2001">
+    <EnemyName>右上角落地蜘蛛，逼迫玩家退出右侧位置，2秒一层，一层2只，总共出14层</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="94" WaveID="14" DelayTime="10000" PointID="2009" EnemyID="2001">
+    <EnemyName>右上角落地蜘蛛，逼迫玩家退出右侧位置，2秒一层，一层2只，总共出15层</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="95" WaveID="14" DelayTime="10000" PointID="7002" EnemyID="2001">
+    <EnemyName>右上角落地蜘蛛，逼迫玩家退出右侧位置，2秒一层，一层2只，总共出16层</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="96" WaveID="15" DelayTime="500" PointID="6005" EnemyID="2001">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="97" WaveID="15" DelayTime="1000" PointID="6010" EnemyID="2003">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="98" WaveID="15" DelayTime="1500" PointID="6015" EnemyID="2001">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="99" WaveID="15" DelayTime="500" PointID="5002" EnemyID="2001">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="100" WaveID="15" DelayTime="1000" PointID="5007" EnemyID="2003">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="101" WaveID="15" DelayTime="1500" PointID="5012" EnemyID="2001">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="102" WaveID="15" DelayTime="6500" PointID="2009" EnemyID="2001">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="103" WaveID="15" DelayTime="6600" PointID="2010" EnemyID="2001">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="104" WaveID="15" DelayTime="6500" PointID="3008" EnemyID="2004">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="105" WaveID="15" DelayTime="6600" PointID="1010" EnemyID="2001">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="106" WaveID="15" DelayTime="8500" PointID="1008" EnemyID="2001">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="107" WaveID="15" DelayTime="8600" PointID="1005" EnemyID="2001">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="108" WaveID="15" DelayTime="8500" PointID="1009" EnemyID="2003">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="109" WaveID="15" DelayTime="8600" PointID="1004" EnemyID="2001">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="110" WaveID="16" DelayTime="500" PointID="1001" EnemyID="2004">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="111" WaveID="16" DelayTime="1000" PointID="1004" EnemyID="2001">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="112" WaveID="16" DelayTime="1000" PointID="1005" EnemyID="2001">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="113" WaveID="16" DelayTime="3000" PointID="4004" EnemyID="2008">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="114" WaveID="16" DelayTime="3500" PointID="4001" EnemyID="2004">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="115" WaveID="16" DelayTime="3500" PointID="4002" EnemyID="2004">
+    <EnemyName>绿白蜘蛛，左右侧分别出，层层推进</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="116" WaveID="16" DelayTime="8000" PointID="8009" EnemyID="2002">
+    <EnemyName>无人机</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="117" WaveID="16" DelayTime="8500" PointID="8004" EnemyID="2002">
+    <EnemyName>无人机</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="118" WaveID="16" DelayTime="8000" PointID="8001" EnemyID="2002">
+    <EnemyName>无人机</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="119" WaveID="16" DelayTime="8500" PointID="8006" EnemyID="2002">
+    <EnemyName>无人机</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="120" WaveID="16" DelayTime="8000" PointID="9010" EnemyID="2002">
+    <EnemyName>无人机</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="121" WaveID="16" DelayTime="12500" PointID="4007" EnemyID="2006">
+    <EnemyName>无人机</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+  <AllWaveList ID="122" WaveID="16" DelayTime="12500" PointID="4006" EnemyID="2008">
+    <EnemyName>无人机</EnemyName>
+    <SpwanCount>1</SpwanCount>
+    <SpwanInterval>0</SpwanInterval>
+    <NextWaveActiveNum>0</NextWaveActiveNum>
+    <MaxTime>30000</MaxTime>
+    <SceneName>scene03</SceneName>
+  </AllWaveList>
+</WaveData>
