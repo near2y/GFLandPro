@@ -42,12 +42,17 @@ public class Player : MonoBehaviour
     CharacterController cCtrl;
     bool inGame = false;
 
+    //ray
+    float camRayLength = 100f;
+    int floorMask;
+
     private void Start()
     {
         anim = GetComponent<Animator>();
         anim.speed = aniSpeed;
         cCtrl = GetComponent<CharacterController>();
         movement = new Vector3();
+        floorMask = LayerMask.GetMask("InputRay");
     }
 
 
@@ -75,6 +80,7 @@ public class Player : MonoBehaviour
         //停止发射武器
         emitter.Attack(false);
         anim.Play("OverShow");
+        SceneManager.Instance.gameUI.ShowClear();
     }
 
     void OverInStage()
@@ -121,8 +127,12 @@ public class Player : MonoBehaviour
         {
             movement = movement.normalized;
         }
-        movement = movement * speed * Time.deltaTime;
+        
+        movement =  movement* speed * Time.deltaTime;
+
+        //cCtrl.Move(movement);
         cCtrl.SimpleMove(movement);
+        //transform.Translate(movement);
     }
 
     void Attack()
@@ -159,33 +169,45 @@ public class Player : MonoBehaviour
 
     #region 转向
     float ratio = 0;
+    Vector3 point = new Vector3();
     void Turning()
     {
         enemy = SceneManager.Instance.enemyManager.FindCloseEnemy(attackDis);
         if (enemy != null  )
         {
-            //transform.LookAt(enemy.transform.position);
-            Vector3 playerToMouse = enemy.transform.position - transform.position;
-            playerToMouse.y = 0f;
-            //lerp
-            Quaternion newRotation = Quaternion.LookRotation(playerToMouse);
-            if (Mathf.Abs(transform.rotation.eulerAngles.y - newRotation.eulerAngles.y) > 10)
+            point = enemy.transform.position;
+        }
+        else
+        {
+            Ray camRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit floorHit;
+            if (Physics.Raycast(camRay, out floorHit, camRayLength, floorMask))
             {
-                transform.rotation = Quaternion.Lerp(transform.rotation, newRotation, 5 * Time.deltaTime);
-                ratio = 1;
-                anim.SetFloat(aniID_Turning, ratio);
-            }
-            else
-            {
-                emitter.bulletPos.LookAt(enemy.transform);
-                //transform.LookAt(enemy.transform.position);
-                transform.rotation = newRotation;
-                ratio *= 0.5f;
-                if (ratio < 0.1) ratio = 0;
-                anim.SetFloat(aniID_Turning, 0);
+                point = floorHit.point;
             }
         }
-        if(enemy == null && anim.GetFloat(aniID_Turning) != 0)
+        //转向具体点
+        //transform.LookAt(enemy.transform.position);
+        Vector3 playerToMouse = point - transform.position;
+        playerToMouse.y = 0f;
+        //lerp
+        Quaternion newRotation = Quaternion.LookRotation(playerToMouse);
+        if (Mathf.Abs(transform.rotation.eulerAngles.y - newRotation.eulerAngles.y) > 10)
+        {
+            transform.rotation = Quaternion.Lerp(transform.rotation, newRotation, 5 * Time.deltaTime);
+            ratio = 1;
+            anim.SetFloat(aniID_Turning, ratio);
+        }
+        else
+        {
+            //emitter.bulletPos.LookAt(enemy.transform);
+            transform.rotation = newRotation;
+            ratio *= 0.5f;
+            if (ratio < 0.1) ratio = 0;
+            anim.SetFloat(aniID_Turning, 0);
+        }
+
+        if (enemy == null && anim.GetFloat(aniID_Turning) != 0)
         {
             anim.SetFloat(aniID_Turning, 0);
         }

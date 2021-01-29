@@ -14,6 +14,8 @@ public class SceneManager : MonoSingleton<SceneManager>
     public Transform pointsTrans;
     public GameCamera gameCamera;
     public EnemyPoints enemyPoints;
+    public GameUI gameUI = null;
+    
 
     string playerPrePath = "Assets/枪火之地/prefabs/player.prefab";
 
@@ -53,6 +55,12 @@ public class SceneManager : MonoSingleton<SceneManager>
         //waveManager
         waveManager = new WaveManager(GameManager.Instance.waveData, this);
         startedWave = true;
+
+        //TODO
+        ////?
+        RFramework.instance.m_UIRoot.gameObject.SetActive(false);
+        RFramework.instance.m_UIRoot.gameObject.SetActive(true);
+        gameUI = UIManager.Instance.PopUpWindow(ConStr.GAMEPANEL, true) as GameUI;
     }
 
     private void Update()

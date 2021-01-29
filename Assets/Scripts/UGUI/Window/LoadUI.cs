@@ -30,9 +30,9 @@ public class LoadUI : Window
             case 1:
                 UIManager.Instance.PopUpWindow(ConStr.MENUPANEL);
                 break;
-            case 2:
-                UIManager.Instance.PopUpWindow(ConStr.GAMEPANEL);
-                break;
+            //case 2:
+            //    UIManager.Instance.PopUpWindow(ConStr.GAMEPANEL,true);
+            //    break;
         }
 
     }

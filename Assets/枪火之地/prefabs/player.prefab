@@ -163,9 +163,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9fd19f12f057b04c86cb1332dff94cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 200
+  speed: 230
   attackDis: 100
-  aniSpeed: 1.1
+  aniSpeed: 1
   rotLerp: 0.882
   attackEffectPos: {fileID: 0}
   attackEffect: {fileID: 0}

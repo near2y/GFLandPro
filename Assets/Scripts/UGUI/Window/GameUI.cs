@@ -15,10 +15,10 @@ public class GameUI : Window
     {
         m_Panel = GameObject.GetComponent<GamePanel>();
         AddBtnClickListener(m_Panel.homeBtn, ClickHomeBtn);
-        AddBtnClickListener(m_Panel.createBall, ClickAddBallBtn);
-        AddBtnClickListener(m_Panel.clearBall, ClearBalls);
+        AddBtnClickListener(m_Panel.nextGameBtn, ClickNextBtn);
 
         m_Panel.ballNum.text = balls.Count.ToString();
+        m_Panel.nextGameBtn.gameObject.SetActive(false);
     }
 
     
@@ -26,7 +26,6 @@ public class GameUI : Window
     public override void OnClose()
     {
         base.OnClose();
-        ClearBalls();
         m_Panel.joystick.ShowHide(false);
     }
 
@@ -36,20 +35,22 @@ public class GameUI : Window
         GameMapManager.Instance.LoadScene(ConStr.MENUSCENE, 1);
     }
 
-    void ClickAddBallBtn()
+    //点击下一关
+    void ClickNextBtn()
     {
-        //EnemyManager.Instance.Spwan(2001);
+        GameManager.Instance.GameOver();
+        UIManager.Instance.CloseWindow(Name);
+        GameManager.Instance.GameStart();
     }
 
-    void ClearBalls()
+
+    public void ShowClear()
     {
-        foreach (GameObject ball  in balls)
-        {
-            ObjectManager.Instance.ReleaseObject(ball);
-        }
-        balls.Clear();
-        m_Panel.ballNum.text = balls.Count.ToString();
+        m_Panel.nextGameBtn.gameObject.SetActive(true);
+        m_Panel.joystick.gameObject.SetActive(false);
+        
     }
+
 }
 
 

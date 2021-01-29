@@ -31,6 +31,9 @@ public class Joystick : MonoBehaviour
     private Vector3 fix = new Vector3();
     void Update()
     {
+        //movement.x = Input.GetAxis("Horizontal");
+        //movement.z = Input.GetAxis("Vertical");
+        //return;
         Smooth();
         BaseInput input = RFramework.Instance.m_UIEventSystem.currentInputModule.input;
         Vector2 worldPos = RFramework.Instance.m_UICamera.ScreenToWorldPoint(input.mousePosition);
