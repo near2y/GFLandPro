@@ -6,6 +6,7 @@
 			<variable  name="Id" col = "Id" type="int"/>
 			<variable  name="Name" col = "特效名字" type="string"/>
 			<variable  name="PrefabPath" col = "预制体完整路径" type="string"/>
+			<variable  name="Duration" col = "特效持续时间" type="float"/>
 		</list>
 	</variable>
 </data>

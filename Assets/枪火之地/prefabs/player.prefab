@@ -146,7 +146,7 @@ CharacterController:
   serializedVersion: 2
   m_Height: 0.68
   m_Radius: 0.22
-  m_SlopeLimit: 14.49
+  m_SlopeLimit: 15
   m_StepOffset: 0.001
   m_SkinWidth: 0.001
   m_MinMoveDistance: 0.001
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 210
-  attackDis: 100
+  attackDis: 10
   aniSpeed: 1
   rotLerp: 0.882
   attackEffectPos: {fileID: 0}

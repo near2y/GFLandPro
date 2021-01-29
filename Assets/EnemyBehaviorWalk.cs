@@ -36,7 +36,8 @@ public class EnemyBehaviorWalk : EnemyBehaviorBase
         enemy.attackTimer += Time.deltaTime * 1000;
         if(enemy.attackTimer >= enemy.attackInterval)
         {
-            if(enemy.targetSqrDis <= enemy.attackRange * enemy.attackRange)
+            //距离够，切看下目标
+            if(enemy.targetSqrDis <= enemy.attackRange * enemy.attackRange && Method.InSight(enemy.transform,enemy.agentTarget.transform,20))
             {
                 enemy.anim.SetBool(enemy.id_Attack, true);
                 enemy.attackTimer = 0;

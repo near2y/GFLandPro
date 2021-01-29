@@ -17,6 +17,7 @@ public class EffectData: ExcelBase
             effect.Id = i + 1;
             effect.Name = "全BUFF" + i;
             effect.PrefabPath = "near2y";
+            effect.Duration = i+1;
             AllEffectList.Add(effect);
         }
     }
@@ -63,5 +64,7 @@ public class EffectBase
     [XmlAttribute("PrefabPath")]
     public string PrefabPath { get; set; }
 
+    [XmlAttribute("Duration")]
+    public float Duration { get; set; }
 }
 

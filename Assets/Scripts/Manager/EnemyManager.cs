@@ -26,7 +26,7 @@ public class EnemyManager :  MonoBehaviour
     /// </summary>
     /// <param name="id"></param>
     /// <returns></returns>
-    public void Spwan(int id,Transform fullPoint)
+    public Enemy Spwan(int id,Transform fullPoint)
     {
         //生成
         EnemyBase data = enemyData.FindByID(id);
@@ -42,6 +42,7 @@ public class EnemyManager :  MonoBehaviour
         enemy.hp = data.Hp;
         //计数
         enemyAliveCount++;
+        return enemy;
     }
 
     /// <summary>
@@ -67,13 +68,13 @@ public class EnemyManager :  MonoBehaviour
         return enemy;
     }
 
-    public void ClearEnemy(Enemy enemy)
+    public void ClearEnemy(Enemy enemy,bool extra = false)
     {
         if (enemy != null)
         {
             enemy.Release();
             enemyList.Remove(enemy);
-            SceneManager.Instance.waveManager.CurrentWave.aliveEnemyNum--;
+            if(!extra)SceneManager.Instance.waveManager.CurrentWave.aliveEnemyNum--;
             enemyAliveCount--;
         }
     }

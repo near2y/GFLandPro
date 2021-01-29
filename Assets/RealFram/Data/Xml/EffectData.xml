@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EffectData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <AllEffectList Id="4001" Name="攻击子弹1号" PrefabPath="Assets/枪火之地/Effects/Prefabs/testBullet.prefab" />
-  <AllEffectList Id="4002" Name="攻击子弹2号" PrefabPath="Assets/枪火之地/Effects/Prefabs/enemyBullet.prefab" />
-  <AllEffectList Id="4003" Name="攻击子弹3号" PrefabPath="Assets/枪火之地/Effects/Prefabs/ef_bl_gun01.prefab" />
+  <AllEffectList Id="4001" Name="攻击子弹1号" PrefabPath="Assets/枪火之地/Effects/Prefabs/testBullet.prefab" Duration="0" />
+  <AllEffectList Id="4002" Name="绿色子弹" PrefabPath="Assets/枪火之地/Effects/Prefabs/enemyBullet.prefab" Duration="0" />
+  <AllEffectList Id="4003" Name="炮弹爆炸" PrefabPath="Assets/枪火之地/Effects/Prefabs/ef_ms_titan_far_bullet_explode.prefab" Duration="2000" />
+  <AllEffectList Id="4004" Name="泰坦地火" PrefabPath="Assets/枪火之地/Effects/Prefabs/ef_ms_titan_red_trajectory.prefab" Duration="2000" />
 </EffectData>

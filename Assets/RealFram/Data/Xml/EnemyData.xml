@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EnemyData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <AllEnemyList Id="2001" Name="绿蜘蛛" Hp="25" AttackDis="1.8" EffectId="3001" PrefabPath="Assets/枪火之地/prefabs/spider.prefab" Size="1" />
+  <AllEnemyList Id="2001" Name="绿蜘蛛" Hp="33" AttackDis="1.8" EffectId="3001" PrefabPath="Assets/枪火之地/prefabs/spider.prefab" Size="1" />
   <AllEnemyList Id="2002" Name="无人机" Hp="25" AttackDis="2" EffectId="3002" PrefabPath="Assets/枪火之地/prefabs/drone.prefab" Size="1" />
   <AllEnemyList Id="2003" Name="白蜘蛛" Hp="25" AttackDis="1.8" EffectId="3003" PrefabPath="Assets/枪火之地/prefabs/spider3.prefab" Size="1" />
   <AllEnemyList Id="2004" Name="红蜘蛛" Hp="100" AttackDis="2.4" EffectId="3001" PrefabPath="Assets/枪火之地/prefabs/spider2.prefab" Size="1" />
   <AllEnemyList Id="2005" Name="白炮台" Hp="100" AttackDis="30" EffectId="3001" PrefabPath="Assets/枪火之地/prefabs/turret.prefab" Size="1" />
+  <AllEnemyList Id="2006" Name="炮弹泰坦" Hp="300" AttackDis="20" EffectId="3001" PrefabPath="Assets/枪火之地/prefabs/ammoTitan.prefab" Size="1" />
+  <AllEnemyList Id="2007" Name="炮弹" Hp="50" AttackDis="0" EffectId="3001" PrefabPath="Assets/枪火之地/prefabs/mine.prefab" Size="1" />
+  <AllEnemyList Id="2008" Name="击地泰坦" Hp="300" AttackDis="9" EffectId="3001" PrefabPath="Assets/枪火之地/prefabs/beatTitan.prefab" Size="1" />
 </EnemyData>

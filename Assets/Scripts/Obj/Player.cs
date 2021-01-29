@@ -185,6 +185,10 @@ public class Player : MonoBehaviour
             {
                 point = floorHit.point;
             }
+            else
+            {
+                return;
+            }
         }
         //转向具体点
         //transform.LookAt(enemy.transform.position);

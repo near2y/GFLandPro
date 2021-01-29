@@ -14,10 +14,16 @@ public class GameManager : MonoSingleton<GameManager>
     [HideInInspector]
     public EffectData effectData;
 
+    [HideInInspector]
+    public MonoBehaviour mono;
+
+
     private void Start()
     {
+        mono = this;
         effectData = ConfigerManager.Instance.FindData<EffectData>(CFG.TABLE_BULLET);
     }
+
 
     public void GameStart()
     {

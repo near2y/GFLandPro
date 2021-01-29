@@ -45,8 +45,11 @@ public abstract class  Enemy : MonoBehaviour
 
     [HideInInspector]
     public bool died = false;
+    [HideInInspector]
+    public bool lookPlayerInAttack = false;
     protected float startColorRange = 1;
 
+    protected float startAniSpeed = 0;
 
     protected void Awake()
     {
@@ -90,12 +93,14 @@ public abstract class  Enemy : MonoBehaviour
         }
         //开启emitter
         if(emitter != null)emitter.SetActive(true);
+        startAniSpeed = anim.speed;
     }
 
 
 
     public void Release()
     {
+        anim.speed = startAniSpeed;
         ObjectManager.Instance.ReleaseObject(gameObject,recycleParent:false);
     }
 

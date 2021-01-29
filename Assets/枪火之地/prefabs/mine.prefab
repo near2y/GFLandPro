@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 246797974206072707}
   - component: {fileID: 246797974206842787}
   - component: {fileID: 246797974207972707}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: mine_chushou12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 246797974206072713}
   - component: {fileID: 246797974206842793}
   - component: {fileID: 246797974207972713}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: mine_chushou09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 246797974206072715}
   - component: {fileID: 246797974206842795}
   - component: {fileID: 246797974207972715}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: mine_chushou08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 246797974206072717}
   - component: {fileID: 246797974206842797}
   - component: {fileID: 246797974207972717}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: mine_chushou11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -319,7 +319,7 @@ GameObject:
   - component: {fileID: 246797974206072719}
   - component: {fileID: 246797974206842799}
   - component: {fileID: 246797974207972719}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: mine_chushou10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -396,7 +396,7 @@ GameObject:
   - component: {fileID: 246797974206072721}
   - component: {fileID: 246797974206842801}
   - component: {fileID: 246797974207972721}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: mine_chushou05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 246797974206072723}
   - component: {fileID: 246797974206842803}
   - component: {fileID: 246797974207972723}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: mine_chushou04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -550,7 +550,7 @@ GameObject:
   - component: {fileID: 246797974206072725}
   - component: {fileID: 246797974206842805}
   - component: {fileID: 246797974207972725}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: mine_chushou07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -627,7 +627,7 @@ GameObject:
   - component: {fileID: 246797974206072727}
   - component: {fileID: 246797974206842807}
   - component: {fileID: 246797974207972727}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: mine_chushou06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -704,7 +704,7 @@ GameObject:
   - component: {fileID: 246797974206072729}
   - component: {fileID: 246797974206842809}
   - component: {fileID: 246797974207972729}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: mine_chushou01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -785,7 +785,7 @@ GameObject:
   - component: {fileID: 246797974205685022}
   - component: {fileID: 246797974205685021}
   - component: {fileID: 246797974205685023}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: mine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -909,7 +909,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.30483586
+  m_Radius: 0.5
   m_Center: {x: 2.4868996e-14, y: 2.1760371e-14, z: 0.00000010430814}
 --- !u!114 &246797974205685023
 MonoBehaviour:
@@ -942,8 +942,7 @@ MonoBehaviour:
   id_Attack: 1080829965
   died: 0
   traceSpeed: 8
-  boomEffectPre: {fileID: 7925845882562136048, guid: aecadd2a9f4dbf1419389ebe16e2967b,
-    type: 3}
+  effectID: 4003
 --- !u!1 &246797974205717437
 GameObject:
   m_ObjectHideFlags: 0
@@ -955,7 +954,7 @@ GameObject:
   - component: {fileID: 246797974206072733}
   - component: {fileID: 246797974206842813}
   - component: {fileID: 246797974207972733}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: mine_chushou03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1032,7 +1031,7 @@ GameObject:
   - component: {fileID: 246797974206072735}
   - component: {fileID: 246797974206842815}
   - component: {fileID: 246797974207972735}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: mine_chushou02
   m_TagString: Untagged
   m_Icon: {fileID: 0}

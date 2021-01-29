@@ -6,7 +6,7 @@ public class Mine : Enemy
 {
     [Header("< 爆炸弹的相关属性 >")]
     public float traceSpeed = 5;
-    public GameObject boomEffectPre = null;
+    public int effectID= 4003;
 
     Rigidbody rig;
     //在等待发射
@@ -16,7 +16,7 @@ public class Mine : Enemy
     {
         base.Awake();
         rig = GetComponent<Rigidbody>();
-
+        
     }
 
 
@@ -49,8 +49,6 @@ public class Mine : Enemy
         {
             BeShoot();
         }
-
-
     }
 
     public void BeShoot()
@@ -58,23 +56,25 @@ public class Mine : Enemy
         //不再处于等待发射状态
         rig.isKinematic = false;
         anim.Play(EnemyState.InStage);
+        rig.AddForce(-(transform.right).normalized * 10, ForceMode.Impulse);
+        SceneManager.Instance.enemyManager.AddEnemy(this);
     }
 
 
     IEnumerator Boom()
     {
         died = true;
+        rig.isKinematic = true;
         //变黑
         float startColorRange = meshRenderer.material.GetFloat("_colorrange");
         meshRenderer.material.SetFloat("_colorrange", 0.3f);
         //显示爆炸特效
-        GameObject effect = Instantiate(boomEffectPre);
+        GameObject effect = SceneManager.Instance.effectManager.GetEffect(effectID);
         effect.transform.position = transform.position;
         //回收
         yield return new WaitForSeconds(0.1f);
-        transform.gameObject.SetActive(false);
         meshRenderer.material.SetFloat("_colorrange", startColorRange);
-
+        SceneManager.Instance.enemyManager.ClearEnemy(this,true);
     }
 
     private void OnParticleCollision(GameObject other)

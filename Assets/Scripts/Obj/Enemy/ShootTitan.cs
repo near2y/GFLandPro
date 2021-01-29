@@ -13,15 +13,17 @@ public class ShootTitan : Enemy
     [Header("< 射击泰坦相关属性接口 >")]
     public Transform leftHand;
     public Transform rightHand;
-    public GameObject ammoPre;
+    public int ammoID;
     //泰坦攻击弹药
-    int ammoCount = 0;
+    bool couldShoot = false;
     float ammoInterval = 3000;
     float ammoTimer = 0;
+    Mine leftAmmo = null;
+    Mine rightAmmo = null;
 
     private void Start()
     {
-        InStage(agentTarget, startPos);
+        //InStage(agentTarget, startPos);
         //保证登场后不久会进行上弹
         ammoTimer = ammoInterval - 500;
     }
@@ -39,20 +41,36 @@ public class ShootTitan : Enemy
     }
 
     //上完弹药
-    void LoadedAmmo()
+    void LoadedAmmo(int isLeft)
     {
-        Mine ammo1 = Instantiate(ammoPre).GetComponent<Mine>();
-        Mine ammo2 = Instantiate(ammoPre).GetComponent<Mine>();
-        ammo1.InStage(agentTarget, leftHand);
-        ammo2.InStage(agentTarget, rightHand);
-
+        if (isLeft == 1)
+        {
+            leftAmmo = SceneManager.Instance.enemyManager.Spwan(ammoID, transform) as Mine;
+            leftAmmo.InStage(agentTarget,leftHand);
+        }
+        else
+        {
+            rightAmmo = SceneManager.Instance.enemyManager.Spwan(ammoID, transform) as Mine;
+            rightAmmo.InStage(agentTarget,rightHand);
+        }
     }
 
     //发射炮弹
-    void ShootAmmo()
+    void ShootAmmo(int isLeft)
     {
+        if (isLeft == 1)
+        {
+            leftAmmo.BeShoot();
+            leftAmmo = null;
+        }
+        else
+        {
+            rightAmmo.BeShoot();
+            rightAmmo = null;
 
-
+        }
+        couldShoot = !(leftAmmo== null && rightAmmo==null);
+        ammoTimer = 0;
     }
 
 
@@ -63,12 +81,29 @@ public class ShootTitan : Enemy
         if (completeInStage)
         {
             ammoTimer += Time.deltaTime*1000;
-            if(ammoCount<=0 && ammoTimer>=ammoInterval)
+            if(!couldShoot && ammoTimer>=ammoInterval)
             {
-                ammoCount++;
+                couldShoot = true;
                 //播放上弹动作
                 anim.Play("Loaded", 1);
             }
+        }
+        if (!couldShoot)
+        {
+            attackTimer = 0;
+        }
+    }
+
+    private void OnParticleCollision(GameObject other)
+    {
+        hp -= SceneManager.Instance.player.ATK;
+        OnHit();
+        if (hp <= 0 && !died)
+        {
+            if (leftAmmo != null) {}SceneManager.Instance.enemyManager.ClearEnemy(leftAmmo,true);
+            if (rightAmmo != null) SceneManager.Instance.enemyManager.ClearEnemy(rightAmmo,true);
+            Dying();
+            
         }
     }
 }
