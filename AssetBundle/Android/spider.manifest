@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3084717925
+CRC: 2968611453
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 689c843b57aa3022784057db21a794cd
+    Hash: 3473d039c91a23805540f743a3831c49
   TypeTreeHash:
     serializedVersion: 2
-    Hash: fe53c0e2145cafe956fb86153f26a33c
+    Hash: 55ece01008dae4c0a3e879ce2672ef6d
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -56,4 +56,4 @@ Assets:
 - "Assets/\u67AA\u706B\u4E4B\u5730/Texture/ms_spider_green_02.jpg"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Animation/Enemy/SpiderAC.controller"
 Dependencies:
-- "F:/Near2y/SVN/shejiAPP/\u7A0B\u5E8F\u5DE5\u7A0B/Assets/../AssetBundle/Android/drone"
+- "F:/Near2y/SVN/shejiAPP/\u7A0B\u5E8F\u5DE5\u7A0B/Assets/../AssetBundle/Android/ammotitan"

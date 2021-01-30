@@ -102,7 +102,7 @@ BlendTree:
   m_Childs:
   - serializedVersion: 2
     m_Motion: {fileID: 7400012, guid: b0b60ac9324c93b488d90eaf964052de, type: 3}
-    m_Threshold: 0.9967021
+    m_Threshold: 0.5
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -118,9 +118,9 @@ BlendTree:
     m_Mirror: 0
   m_BlendParameter: SpwanType
   m_BlendParameterY: Shoot
-  m_MinThreshold: 0.9967021
+  m_MinThreshold: 0.5
   m_MaxThreshold: 1
-  m_UseAutomaticThresholds: 0
+  m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
 --- !u!206 &206422384335710512
@@ -315,10 +315,10 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 206165177120627650}
   m_Tag: 
-  m_SpeedParameter: 
+  m_SpeedParameter: Melee
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: Melee
 --- !u!1102 &1102367005083811818
 AnimatorState:
   serializedVersion: 5

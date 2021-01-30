@@ -31,6 +31,8 @@ public class ShootTitan : Enemy
     public override void InStage(Transform target, Transform spwanPoint)
     {
         Init(target, spwanPoint);
+        //登场时无法攻击的
+        couldShoot = false;
 
         //登场
         anim.Play(EnemyState.InStage);
@@ -45,12 +47,12 @@ public class ShootTitan : Enemy
     {
         if (isLeft == 1)
         {
-            leftAmmo = SceneManager.Instance.enemyManager.Spwan(ammoID, transform) as Mine;
+            leftAmmo = SceneManager.Instance.enemyManager.Spwan(ammoID, transform,true) as Mine;
             leftAmmo.InStage(agentTarget,leftHand);
         }
         else
         {
-            rightAmmo = SceneManager.Instance.enemyManager.Spwan(ammoID, transform) as Mine;
+            rightAmmo = SceneManager.Instance.enemyManager.Spwan(ammoID, transform,true) as Mine;
             rightAmmo.InStage(agentTarget,rightHand);
         }
     }
@@ -100,8 +102,16 @@ public class ShootTitan : Enemy
         OnHit();
         if (hp <= 0 && !died)
         {
-            if (leftAmmo != null) {}SceneManager.Instance.enemyManager.ClearEnemy(leftAmmo,true);
-            if (rightAmmo != null) SceneManager.Instance.enemyManager.ClearEnemy(rightAmmo,true);
+            if (leftAmmo != null) 
+            {
+                SceneManager.Instance.enemyManager.ClearEnemy(leftAmmo, true);
+                leftAmmo = null;
+            }
+            if (rightAmmo != null) 
+            {
+                SceneManager.Instance.enemyManager.ClearEnemy(rightAmmo, true);
+                rightAmmo = null;
+            } 
             Dying();
             
         }

@@ -34,7 +34,7 @@ public class Spider : Enemy
         else if(spwanPoint.tag == SpwanPointTag.Full)
         {
             //落下来的
-            anim.SetFloat(id_SpwanType, 0);
+            anim.SetFloat(id_SpwanType, 0.5f);
             anim.Play(EnemyState.InStage);
         }
         attackTimer = attackInterval;

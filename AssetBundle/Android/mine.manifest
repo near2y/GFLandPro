@@ -1,0 +1,52 @@
+ManifestFileVersion: 0
+CRC: 4166760485
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 262a058f09bff8cf4abbecc729ff244b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: aaa94fbbb25abe4c8d8a762302e7dba7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe2348390ed813e458b6b9d1a5beb839, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+Assets:
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/ms_titan_far_launch_02.jpg"
+- "Assets/\u67AA\u706B\u4E4B\u5730/models/Enemy/mine_ani.fbx"
+- "Assets/\u67AA\u706B\u4E4B\u5730/models/Enemy/Materials/mine_dark.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Animation/Enemy/MineAC.controller"
+- "Assets/\u67AA\u706B\u4E4B\u5730/prefabs/mine.prefab"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/Enemy/mine_dark.mat"
+Dependencies:
+- "F:/Near2y/SVN/shejiAPP/\u7A0B\u5E8F\u5DE5\u7A0B/Assets/../AssetBundle/Android/ammotitan"

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1623263788
+CRC: 843393806
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 78fec04d8619325591559daaf1a7c9e0
+    Hash: 4ccaa1f8b7d7e2285f6985412302c6c0
   TypeTreeHash:
     serializedVersion: 2
-    Hash: fb414dee2467c42242bfb15535e8a347
+    Hash: 85c884ce27af9e74f8bfabe264843772
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -57,10 +57,9 @@ Assets:
 - "Assets/\u67AA\u706B\u4E4B\u5730/models/Enemy/drone_ani/die.anim"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Texture/ms_drone_white_02.jpg"
 - "Assets/\u67AA\u706B\u4E4B\u5730/models/Enemy/drone_ani/birth2.anim"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Shader/MonsterTest.shader"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Texture/ms_drone_white_01.jpg"
 - "Assets/\u67AA\u706B\u4E4B\u5730/models/Enemy/drone_ani/idle.anim"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/Shader/monsterDyingNoise.png"
 - "Assets/\u67AA\u706B\u4E4B\u5730/materials/Enemy/drone.mat"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Animation/Enemy/DroneAC.controller"
-Dependencies: []
+Dependencies:
+- "F:/Near2y/SVN/shejiAPP/\u7A0B\u5E8F\u5DE5\u7A0B/Assets/../AssetBundle/Android/ammotitan"

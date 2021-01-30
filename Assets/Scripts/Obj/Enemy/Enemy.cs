@@ -20,6 +20,8 @@ public abstract class  Enemy : MonoBehaviour
     public float inStageSpeedRatio = 1;
     //怪物材质
     public Renderer meshRenderer = null;
+    //怪物爆炸特效大小
+    public float boomEffectSize = 1;
 
     [Header("< 调试相关 >")]
     public Transform startPos;
@@ -94,6 +96,9 @@ public abstract class  Enemy : MonoBehaviour
         //开启emitter
         if(emitter != null)emitter.SetActive(true);
         startAniSpeed = anim.speed;
+
+        //attackTimer
+        attackTimer = attackInterval;
     }
 
 
@@ -101,6 +106,7 @@ public abstract class  Enemy : MonoBehaviour
     public void Release()
     {
         anim.speed = startAniSpeed;
+        attackTimer = attackInterval;
         ObjectManager.Instance.ReleaseObject(gameObject,recycleParent:false);
     }
 
@@ -112,11 +118,17 @@ public abstract class  Enemy : MonoBehaviour
         //手机震动
         //Handheld.Vibrate();
         //相机震动
-        //SceneManager.Instance.gameCamera.ShakeCamera(3, 0.05f);
+        SceneManager.Instance.gameCamera.ShakeCamera(Random.Range(1,3), Random.Range(0.1f,0.3f));
+        //变黑
         if (meshRenderer != null)
         {
-            meshRenderer.material.SetFloat("_colorrange", 0.2f);
+            meshRenderer.material.SetFloat("_colorrange", 0.3f);
         }
+        //爆炸特效
+        GameObject boomEffect = SceneManager.Instance.effectManager.GetEffect(4005);
+        boomEffect.transform.localScale = Vector3.one * boomEffectSize;
+        boomEffect.transform.position = transform.position;
+
     }
 
     protected void Update()

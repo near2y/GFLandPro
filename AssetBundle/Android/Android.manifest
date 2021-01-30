@@ -1,61 +1,85 @@
 ManifestFileVersion: 0
-CRC: 2848795341
+CRC: 2060542812
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: data
       Dependencies: {}
     Info_1:
-      Name: drone
+      Name: ammotitan
       Dependencies: {}
     Info_2:
+      Name: beattitan
+      Dependencies:
+        Dependency_0: ammotitan
+        Dependency_1: ef_ms_titan_red_trajectory
+    Info_3:
+      Name: drone
+      Dependencies:
+        Dependency_0: ammotitan
+    Info_4:
+      Name: mine
+      Dependencies:
+        Dependency_0: ammotitan
+    Info_5:
       Name: player
       Dependencies: {}
-    Info_3:
+    Info_6:
       Name: spider
       Dependencies:
-        Dependency_0: drone
-    Info_4:
+        Dependency_0: ammotitan
+    Info_7:
       Name: spider2
       Dependencies:
-        Dependency_0: drone
+        Dependency_0: ammotitan
         Dependency_1: spider
-    Info_5:
+    Info_8:
       Name: spider3
       Dependencies:
-        Dependency_0: drone
+        Dependency_0: ammotitan
         Dependency_1: spider
-    Info_6:
+    Info_9:
       Name: turret
       Dependencies:
-        Dependency_0: drone
-    Info_7:
+        Dependency_0: ammotitan
+    Info_10:
       Name: joystick
       Dependencies: {}
-    Info_8:
+    Info_11:
       Name: gamepanel
       Dependencies:
         Dependency_0: joystick
-    Info_9:
+    Info_12:
       Name: loadpanel
       Dependencies: {}
-    Info_10:
+    Info_13:
       Name: menupanel
       Dependencies: {}
-    Info_11:
+    Info_14:
       Name: ef_behit_02
-      Dependencies: {}
-    Info_12:
+      Dependencies:
+        Dependency_0: beattitan
+    Info_15:
       Name: ef_bl_gun01
       Dependencies: {}
-    Info_13:
+    Info_16:
+      Name: ef_ms_titan_far_bullet_explode
+      Dependencies: {}
+    Info_17:
+      Name: ef_ms_titan_red_trajectory
+      Dependencies:
+        Dependency_0: beattitan
+    Info_18:
+      Name: ef_sc_monster_disappear
+      Dependencies: {}
+    Info_19:
       Name: enemybullet
       Dependencies:
         Dependency_0: ef_bl_gun01
-    Info_14:
+    Info_20:
       Name: testbullet
       Dependencies:
         Dependency_0: ef_bl_gun01
-    Info_15:
+    Info_21:
       Name: assetbundleconfig
       Dependencies: {}

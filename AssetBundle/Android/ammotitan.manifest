@@ -1,0 +1,60 @@
+ManifestFileVersion: 0
+CRC: 2090674815
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 139d317b49154cd605e13a631e73dabb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1c2de4ebc72387e312099ca11cb3fbfa
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8f9ab6b2af418274596c01d30a9fe696, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 749d13942c52b2043bfc55cfefef2270, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 974043386b0ee854e9e22c301c78c1e1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 77b2c96a499f5d94ea8305f1b18e6d65, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8f7a2aaab6b88ba44a6b242f3818f956, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 195
+  Script: {instanceID: 0}
+Assets:
+- "Assets/\u67AA\u706B\u4E4B\u5730/models/Enemy/Materials/bomber.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Animation/Enemy/TitanAC.controller"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/ms_titan_far_03.jpg"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Shader/MonsterTest.shader"
+- "Assets/\u67AA\u706B\u4E4B\u5730/models/Enemy/titan_ani.fbx"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/Shader/monsterDyingNoise.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/prefabs/ammoTitan.prefab"
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/Enemy/ammoTitan.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/ms_titan_far_01.jpg"
+Dependencies: []

@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 3938766097
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cdf3e3265118871d61668b66d83b176e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fb40654ef75623c1b02a99ca0fa1bb79
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7cfbaa5528b1ec1479811dffc23323cd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 195
+  Script: {instanceID: 0}
+Assets:
+- "Assets/\u67AA\u706B\u4E4B\u5730/materials/Enemy/beatTitan.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Textures/tex_tx_shanguang_02.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/Effect_Wave08.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Texture/ms_titan_far_04.jpg"
+- "Assets/\u67AA\u706B\u4E4B\u5730/prefabs/beatTitan.prefab"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/tex_tx_shanguang_02.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Textures/Effect_Wave08.tga"
+Dependencies:
+- "F:/Near2y/SVN/shejiAPP/\u7A0B\u5E8F\u5DE5\u7A0B/Assets/../AssetBundle/Android/ammotitan"
+- "F:/Near2y/SVN/shejiAPP/\u7A0B\u5E8F\u5DE5\u7A0B/Assets/../AssetBundle/Android/ef_ms_titan_red_trajectory"

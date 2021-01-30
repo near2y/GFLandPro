@@ -161,7 +161,7 @@ MonoBehaviour:
   m_NoiseProfile: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
   m_PivotOffset: {x: 0, y: 0, z: 0}
   m_AmplitudeGain: 0
-  m_FrequencyGain: 1
+  m_FrequencyGain: 0
   mNoiseOffsets: {x: -816.70386, y: -897.71265, z: -16.231201}
 --- !u!114 &328943991
 MonoBehaviour:
@@ -601,7 +601,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.7057522, y: 1}
+    m_SensorSize: {x: 2.3153458, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1021,7 +1021,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.7057522, y: 1}
+    m_SensorSize: {x: 2.3153458, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1037,7 +1037,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991739567}
-  m_LocalRotation: {x: 0.015050705, y: 0.9793055, z: -0.18553513, w: 0.07944178}
+  m_LocalRotation: {x: 0.015050701, y: 0.9793055, z: -0.18553513, w: 0.079441756}
   m_LocalPosition: {x: -0.305, y: 1.59, z: 1.84}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2102,7 +2102,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.7057522, y: 1}
+    m_SensorSize: {x: 2.3153458, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -2118,7 +2118,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1511696245}
-  m_LocalRotation: {x: 0.02178307, y: 0.000000030222775, z: -6.5850103e-10, w: 0.9997628}
+  m_LocalRotation: {x: 0.02178307, y: 0.00000007857932, z: -0.0000000017121052, w: 0.9997628}
   m_LocalPosition: {x: -0, y: 1.05, z: -4.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2237,7 +2237,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   smoothing: 5
   walkCamera: {fileID: 608823178}
-  inStageCamera: {fileID: 1511696246}
   drivenCamera: {fileID: 1849325290}
 --- !u!20 &1575499814
 Camera:
@@ -2288,7 +2287,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1575499810}
-  m_LocalRotation: {x: 0.02178307, y: 0.000000030222775, z: -6.5850103e-10, w: 0.9997628}
+  m_LocalRotation: {x: 0.02178307, y: 0.00000007857932, z: -0.0000000017121052, w: 0.9997628}
   m_LocalPosition: {x: 0, y: 1.05, z: -4.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

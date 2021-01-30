@@ -55,7 +55,7 @@ public class Emitter : MonoBehaviour
         if (active && shootTrajactory == null)
         {
             GameObject shootObj = SceneManager.Instance.effectManager.GetEffect(bulletID);
-            shootObj.transform.SetParent(transform);
+            //shootObj.transform.SetParent(transform);
             shootObj.transform.localPosition = Vector3.zero;
             shootObj.transform.localEulerAngles = Vector3.zero;
             shootObj.transform.localScale = Vector3.one;

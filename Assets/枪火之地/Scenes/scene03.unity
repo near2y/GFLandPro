@@ -159,7 +159,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.5622189, y: 1}
+    m_SensorSize: {x: 2.3153458, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -175,7 +175,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20315974}
-  m_LocalRotation: {x: 0.011272736, y: 0.98245555, z: -0.17507905, w: 0.063256934}
+  m_LocalRotation: {x: 0.011270716, y: 0.9824611, z: -0.17504765, w: 0.06325729}
   m_LocalPosition: {x: -6.2, y: 1.6400001, z: -2.7800002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -678,7 +678,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.5622189, y: 1}
+    m_SensorSize: {x: 2.3153458, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -694,7 +694,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 166928745}
-  m_LocalRotation: {x: 0.11095435, y: 0.5299591, z: -0.07018545, w: 0.83779866}
+  m_LocalRotation: {x: 0.11095518, y: 0.5299574, z: -0.07018567, w: 0.83779955}
   m_LocalPosition: {x: -9.57, y: 0.85, z: -9.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -713,6 +713,7 @@ GameObject:
   - component: {fileID: 188513295}
   - component: {fileID: 188513298}
   - component: {fileID: 188513296}
+  - component: {fileID: 188513297}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -777,6 +778,23 @@ MonoBehaviour:
   m_MaximumFOV: 60
   m_MinimumOrthoSize: 1
   m_MaximumOrthoSize: 5000
+--- !u!114 &188513297
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188513294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoiseProfile: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
+  m_PivotOffset: {x: 0, y: 0, z: 0}
+  m_AmplitudeGain: 0
+  m_FrequencyGain: 0
+  mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!114 &188513298
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2162,7 +2180,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 669945484}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.26, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 861300121}
@@ -3304,7 +3322,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 914136338}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.44, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1137641256}
@@ -4692,7 +4710,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.5622189, y: 1}
+    m_SensorSize: {x: 2.3153458, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -4989,7 +5007,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553629029}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.94}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1605796187}
@@ -5122,8 +5140,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1575499810}
-  m_LocalRotation: {x: 0.011272736, y: 0.98245555, z: -0.17507905, w: 0.063256934}
-  m_LocalPosition: {x: -0.6248746, y: 2.0260854, z: 4.832407}
+  m_LocalRotation: {x: 0.11095518, y: 0.5299574, z: -0.07018567, w: 0.83779955}
+  m_LocalPosition: {x: -3.9948745, y: 1.2360853, z: -2.1975932}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5535,7 +5553,7 @@ MonoBehaviour:
   player: {fileID: 1903683481}
   enemyManager: {fileID: 911677674}
   pointsTrans: {fileID: 228620925}
-  gameCamera: {fileID: 0}
+  gameCamera: {fileID: 1575499811}
 --- !u!4 &1711996747
 Transform:
   m_ObjectHideFlags: 0

@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 3093047187
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3350e51226a8e5ae6198aeb0fc03d59d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8e7a9a5bc260fb3cb7f278e39396d550
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/enemy_bullet_red.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Prefabs/ef_ms_titan_far_bullet_explode.prefab"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Textures/enemy_bullet_red.png"
+Dependencies: []

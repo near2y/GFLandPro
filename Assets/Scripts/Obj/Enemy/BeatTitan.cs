@@ -34,6 +34,11 @@ public class BeatTitan : Enemy
         effect.transform.rotation = effectPos.rotation;
     }
 
+    new void Update()
+    {
+        base.Update();
+    }
+
     private void OnParticleCollision(GameObject other)
     {
         hp -= SceneManager.Instance.player.ATK;

@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 477289692
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3c57048d91a0b6bf6313491e620bef95
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6a6c6d41d3b4b9856b897225f9eb2399
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Prefabs/ef_ms_titan_red_trajectory.prefab"
+Dependencies:
+- "F:/Near2y/SVN/shejiAPP/\u7A0B\u5E8F\u5DE5\u7A0B/Assets/../AssetBundle/Android/beattitan"

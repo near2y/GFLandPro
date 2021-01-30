@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3349571345
+CRC: 2105666911
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 39100f269aa06f69f67e61374ee45b1a
+    Hash: d385a4f5c3b67f95d2b968bad97f9784
   TypeTreeHash:
     serializedVersion: 2
-    Hash: a018c2f8531fcbb579d7ab04d76d0325
+    Hash: b8a219a84ac2f05c5640b13ff7d860c9
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,5 +42,5 @@ Assets:
 - "Assets/\u67AA\u706B\u4E4B\u5730/prefabs/spider2.prefab"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Texture/ms_spider_green_03.jpg"
 Dependencies:
-- "F:/Near2y/SVN/shejiAPP/\u7A0B\u5E8F\u5DE5\u7A0B/Assets/../AssetBundle/Android/drone"
+- "F:/Near2y/SVN/shejiAPP/\u7A0B\u5E8F\u5DE5\u7A0B/Assets/../AssetBundle/Android/ammotitan"
 - "F:/Near2y/SVN/shejiAPP/\u7A0B\u5E8F\u5DE5\u7A0B/Assets/../AssetBundle/Android/spider"

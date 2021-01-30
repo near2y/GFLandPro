@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 679303868
+CRC: 1948245370
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f06805ce74bb3547931499763242364b
+    Hash: be0c6cacbcebcb74c8d4453f73126e69
   TypeTreeHash:
     serializedVersion: 2
     Hash: 86907183b656d5981dfd94c3e8469878
@@ -36,9 +36,8 @@ Assets:
 - "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/mat_tx_baodian_an.mat"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Textures/tex_tx_baodian.png"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Effects/OriginRes/Effect/eff_03/fbx/fbx_fang.FBX"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/Effect_Wave08.mat"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/mat_tx_baodian.mat"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Textures/tex_tx_lizi_fen.png"
-- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Textures/Effect_Wave08.tga"
 - "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/mat_tx_lizi_fen_add_an.mat"
-Dependencies: []
+Dependencies:
+- "F:/Near2y/SVN/shejiAPP/\u7A0B\u5E8F\u5DE5\u7A0B/Assets/../AssetBundle/Android/beattitan"

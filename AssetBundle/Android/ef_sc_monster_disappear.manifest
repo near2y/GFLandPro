@@ -1,0 +1,54 @@
+ManifestFileVersion: 0
+CRC: 2543520977
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6793112fb0881061a821e9f336804ace
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 001271e846cf4e9d78b37da95a899bfb
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6b34aa6704060a149a239ca7c42fe4fc, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/concat.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/tex_tx_xiaosan_03.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Textures/tex_tx_glow.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Models/fbx_xiaosan_banyuan.FBX"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Shader/niuqu.shader"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Textures/tex_tx_xiaosan_02.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/shockwave2.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Textures/concat.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/glow_6124.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Prefabs/ef_sc_monster_disappear.prefab"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Textures/tex_tx_kuosan_niuqu.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/tex_tx_glow.mat"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Textures/glow_6124.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Textures/shockwave1.png"
+- "Assets/\u67AA\u706B\u4E4B\u5730/Effects/Materials/tex_tx_xiaosan_02.mat"
+Dependencies: []

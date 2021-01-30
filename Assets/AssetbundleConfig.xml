@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AssetBundleConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ABList Path="Assets/枪火之地/prefabs/ammoTitan.prefab" Crc="1960974188" ABName="ammotitan" AssetName="ammoTitan.prefab" />
+  <ABList Path="Assets/枪火之地/prefabs/beatTitan.prefab" Crc="3952666445" ABName="beattitan" AssetName="beatTitan.prefab">
+    <ABDependce>ammotitan</ABDependce>
+    <ABDependce>ef_ms_titan_red_trajectory</ABDependce>
+  </ABList>
   <ABList Path="Assets/RealFram/Data/Binary/BuffData.bytes" Crc="2262473451" ABName="data" AssetName="BuffData.bytes" />
   <ABList Path="Assets/RealFram/Data/Binary/BulletData.bytes" Crc="4110740475" ABName="data" AssetName="BulletData.bytes" />
   <ABList Path="Assets/RealFram/Data/Binary/EffectData.bytes" Crc="3883766571" ABName="data" AssetName="EffectData.bytes" />
@@ -7,10 +12,20 @@
   <ABList Path="Assets/RealFram/Data/Binary/SceneData.bytes" Crc="3874122375" ABName="data" AssetName="SceneData.bytes" />
   <ABList Path="Assets/RealFram/Data/Binary/WaveData.bytes" Crc="2240778075" ABName="data" AssetName="WaveData.bytes" />
   <ABList Path="Assets/RealFram/Data/Binary/WaveData_0101.bytes" Crc="3399961353" ABName="data" AssetName="WaveData_0101.bytes" />
+  <ABList Path="Assets/RealFram/Data/Binary/WaveData_0301.bytes" Crc="3830539151" ABName="data" AssetName="WaveData_0301.bytes" />
   <ABList Path="Assets/RealFram/Data/Binary/WaveData_0701.bytes" Crc="3116184195" ABName="data" AssetName="WaveData_0701.bytes" />
-  <ABList Path="Assets/枪火之地/prefabs/drone.prefab" Crc="3201399216" ABName="drone" AssetName="drone.prefab" />
-  <ABList Path="Assets/枪火之地/Effects/Prefabs/ef_behit_02.prefab" Crc="1662204411" ABName="ef_behit_02" AssetName="ef_behit_02.prefab" />
+  <ABList Path="Assets/枪火之地/prefabs/drone.prefab" Crc="3201399216" ABName="drone" AssetName="drone.prefab">
+    <ABDependce>ammotitan</ABDependce>
+  </ABList>
+  <ABList Path="Assets/枪火之地/Effects/Prefabs/ef_behit_02.prefab" Crc="1662204411" ABName="ef_behit_02" AssetName="ef_behit_02.prefab">
+    <ABDependce>beattitan</ABDependce>
+  </ABList>
   <ABList Path="Assets/枪火之地/Effects/Prefabs/ef_bl_gun01.prefab" Crc="2521747447" ABName="ef_bl_gun01" AssetName="ef_bl_gun01.prefab" />
+  <ABList Path="Assets/枪火之地/Effects/Prefabs/ef_ms_titan_far_bullet_explode.prefab" Crc="1895785949" ABName="ef_ms_titan_far_bullet_explode" AssetName="ef_ms_titan_far_bullet_explode.prefab" />
+  <ABList Path="Assets/枪火之地/Effects/Prefabs/ef_ms_titan_red_trajectory.prefab" Crc="1461397458" ABName="ef_ms_titan_red_trajectory" AssetName="ef_ms_titan_red_trajectory.prefab">
+    <ABDependce>beattitan</ABDependce>
+  </ABList>
+  <ABList Path="Assets/枪火之地/Effects/Prefabs/ef_sc_monster_disappear.prefab" Crc="1440278665" ABName="ef_sc_monster_disappear" AssetName="ef_sc_monster_disappear.prefab" />
   <ABList Path="Assets/枪火之地/Effects/Prefabs/enemyBullet.prefab" Crc="1486010686" ABName="enemybullet" AssetName="enemyBullet.prefab">
     <ABDependce>ef_bl_gun01</ABDependce>
   </ABList>
@@ -20,22 +35,25 @@
   <ABList Path="Assets/枪火之地/prefabs/UGUI/JoyStick.prefab" Crc="2390278486" ABName="joystick" AssetName="JoyStick.prefab" />
   <ABList Path="Assets/枪火之地/prefabs/UGUI/Panel/LoadPanel.prefab" Crc="2748887832" ABName="loadpanel" AssetName="LoadPanel.prefab" />
   <ABList Path="Assets/枪火之地/prefabs/UGUI/Panel/MenuPanel.prefab" Crc="1438290998" ABName="menupanel" AssetName="MenuPanel.prefab" />
+  <ABList Path="Assets/枪火之地/prefabs/mine.prefab" Crc="681152991" ABName="mine" AssetName="mine.prefab">
+    <ABDependce>ammotitan</ABDependce>
+  </ABList>
   <ABList Path="Assets/枪火之地/prefabs/player.prefab" Crc="1850653287" ABName="player" AssetName="player.prefab" />
   <ABList Path="Assets/枪火之地/prefabs/spider.prefab" Crc="2986712521" ABName="spider" AssetName="spider.prefab">
-    <ABDependce>drone</ABDependce>
+    <ABDependce>ammotitan</ABDependce>
   </ABList>
   <ABList Path="Assets/枪火之地/prefabs/spider2.prefab" Crc="1754605263" ABName="spider2" AssetName="spider2.prefab">
-    <ABDependce>drone</ABDependce>
+    <ABDependce>ammotitan</ABDependce>
     <ABDependce>spider</ABDependce>
   </ABList>
   <ABList Path="Assets/枪火之地/prefabs/spider3.prefab" Crc="2755602001" ABName="spider3" AssetName="spider3.prefab">
-    <ABDependce>drone</ABDependce>
+    <ABDependce>ammotitan</ABDependce>
     <ABDependce>spider</ABDependce>
   </ABList>
   <ABList Path="Assets/枪火之地/Effects/Prefabs/testBullet.prefab" Crc="182895824" ABName="testbullet" AssetName="testBullet.prefab">
     <ABDependce>ef_bl_gun01</ABDependce>
   </ABList>
   <ABList Path="Assets/枪火之地/prefabs/turret.prefab" Crc="920475430" ABName="turret" AssetName="turret.prefab">
-    <ABDependce>drone</ABDependce>
+    <ABDependce>ammotitan</ABDependce>
   </ABList>
 </AssetBundleConfig>

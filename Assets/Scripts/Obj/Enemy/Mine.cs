@@ -16,7 +16,6 @@ public class Mine : Enemy
     {
         base.Awake();
         rig = GetComponent<Rigidbody>();
-        
     }
 
 
@@ -26,7 +25,8 @@ public class Mine : Enemy
         followPoint = spwanPoint;
         //钢体处于运动学状态
         rig.isKinematic = true;
-        //目标
+        //关闭碰撞，发射前无法被打爆
+        bodyCollider.enabled = false;
     }
 
     new void Update()
@@ -55,6 +55,7 @@ public class Mine : Enemy
     {
         //不再处于等待发射状态
         rig.isKinematic = false;
+        bodyCollider.enabled = true;
         anim.Play(EnemyState.InStage);
         rig.AddForce(-(transform.right).normalized * 10, ForceMode.Impulse);
         SceneManager.Instance.enemyManager.AddEnemy(this);
@@ -71,11 +72,16 @@ public class Mine : Enemy
         //显示爆炸特效
         GameObject effect = SceneManager.Instance.effectManager.GetEffect(effectID);
         effect.transform.position = transform.position;
+        //变回原来的样子
+        anim.Play(EnemyState.Dying);
+        //不会再被打到
+        bodyCollider.enabled = false;
         //回收
         yield return new WaitForSeconds(0.1f);
         meshRenderer.material.SetFloat("_colorrange", startColorRange);
         SceneManager.Instance.enemyManager.ClearEnemy(this,true);
     }
+
 
     private void OnParticleCollision(GameObject other)
     {

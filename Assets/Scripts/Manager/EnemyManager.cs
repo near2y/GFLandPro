@@ -26,7 +26,7 @@ public class EnemyManager :  MonoBehaviour
     /// </summary>
     /// <param name="id"></param>
     /// <returns></returns>
-    public Enemy Spwan(int id,Transform fullPoint)
+    public Enemy Spwan(int id,Transform fullPoint,bool extra =false)
     {
         //生成
         EnemyBase data = enemyData.FindByID(id);
@@ -41,7 +41,7 @@ public class EnemyManager :  MonoBehaviour
         enemy.InStage(SceneManager.Instance.player.transform,fullPoint);
         enemy.hp = data.Hp;
         //计数
-        enemyAliveCount++;
+        if(!extra)enemyAliveCount++;
         return enemy;
     }
 
@@ -75,7 +75,7 @@ public class EnemyManager :  MonoBehaviour
             enemy.Release();
             enemyList.Remove(enemy);
             if(!extra)SceneManager.Instance.waveManager.CurrentWave.aliveEnemyNum--;
-            enemyAliveCount--;
+            if(!extra)enemyAliveCount--;
         }
     }
 
